@@ -1,6 +1,6 @@
 (window.SOKAR=window.SOKAR||{courses:[]}).courses.push({
 id:"mat214",code:"MAT214",name:"Mathematics for Business",ar:"رياضيات الأعمال",icon:"sigma",hue:28,
-who:"د. أحمد القطوري",src:"محاضرات 1 إلى 4 و 6 إلى 9 + سيكشن + Practice Questions. (محاضرة 5 ما قدرتش أقراها لحجمها الكبير)",
+who:"د. أحمد القطوري",src:"محاضرات 1 إلى 9 + سيكشن + Practice Questions",
 grading:"من خطة المادة: Quizzes (محاضرة 5 و 10) ١٥ + Assignments أونلاين (محاضرة 4 و 11) ١٥ + Midterm 1 (محاضرة 7) ١٥ + Midterm 2 (محاضرة 12) ١٥ + Final ٤٠ = ١٠٠، وفيه Extra Activity ١٠.",
 lectures:[
 {t:"Lectures 1–2 — الأعداد والمعادلات الخطية",pts:[
@@ -19,6 +19,14 @@ terms:[["Linear equation","معادلة خطية"],["Solution set","مجموعة
 "نكتبها y = f(x). x هو المتغير المستقل (Independent) و y هو التابع (Dependent).",
 "الأهداف: الدوال، رسم المعادلة الخطية بخمس صور، والتطبيقات الاقتصادية."],
 terms:[["Domain","المجال"],["Range","المدى"],["Independent variable","متغير مستقل"]]},
+{t:"Lecture 5 — التطبيقات الاقتصادية و Functions and Graphs",pts:[
+"Total Cost: C(x) = F + v·x. F تكلفة ثابتة (إيجار، مصاريف إدارية) و v تكلفة الوحدة المتغيرة.",
+"Total Revenue: R(x) = p·x (الصفر لو مبعتش حاجة). Total Profit: P(x) = R(x) − C(x) = (p − v)·x − F. الـ (p − v) هو Contribution Margin للوحدة.",
+"Break-even point: النقطة اللي TR = TC والربح صفر. مثال في المحاضرة: السعر 8 والتكلفة الثابتة 5000 وتكلفة الوحدة 3: 8Q = 5000 + 3Q يبقى Q = 1000 وحدة و TR = 8000.",
+"Market equilibrium: الطلب p = b − m·Qd (سالب الميل) والعرض p = b + m·Qs (موجب الميل). التوازن عند Qs = Qd، يعني تقاطع الخطين.",
+"Quadratic y = ax² + bx + c: الرأس عند x = −b/2a. لو a > 0 القطع مفتوح لفوق (قيمة صغرى)، ولو a < 0 مفتوح لتحت (قيمة عظمى). مثال: y = x² + 2x − 3 رأسه (−1, −4) وجذوره −3 و 1.",
+"أنواع تانية في نفس المحاضرة: Cubic و Radical و Absolute و Rational و Exponential و Logarithmic (اللوغاريتم هو عكس الأسّي)."],
+terms:[["Break-even point","نقطة التعادل: TR = TC"],["Contribution margin","هامش المساهمة للوحدة (p − v)"],["Vertex","رأس القطع المكافئ"]]},
 {t:"Lecture 6 — Linear Programming والـ Determinants",pts:[
 "Linear Programming: نعظّم أو نصغّر دالة خطية (Objective function) تحت قيود.",
 "الطريقة البيانية: (1) حدد Objective function. (2) حدد منطقة الحل لكل قيد. (3) Feasible region هي تقاطع المناطق. (4) استخرج Corner points بحل المعادلات. (5) عوّض في Objective function عند كل Corner point. (6) اختار النقطة المطلوبة (max أو min).",
@@ -50,7 +58,11 @@ cards:[
 ["مشتقة ثابت؟","صفر"],
 ["Feasible region؟","تقاطع مناطق حل كل القيود"],
 ["فين نختار الحل في Linear Programming؟","عند Corner points، ونقارن قيمة Objective function"],
-["Function مختلفة عن Relation إزاي؟","كل x ليه y واحد بس"]
+["Function مختلفة عن Relation إزاي؟","كل x ليه y واحد بس"],
+["Break-even point؟","TR = TC والربح صفر"],
+["Total Profit؟","P(x) = R(x) − C(x) = (p − v)x − F"],
+["رأس القطع المكافئ y = ax² + bx + c؟","x = −b/2a"],
+["Market equilibrium؟","النقطة اللي Qs = Qd، تقاطع العرض والطلب"]
 ],
 quiz:[
 {q:"حل المعادلة 3x + 4 = x + 10؟",o:["x = 2","x = 3","x = 7","x = 14"],a:1,why:"2x = 6 فـ x = 3."},
@@ -58,5 +70,9 @@ quiz:[
 {q:"رتبة المصفوفة بصفين وتلات أعمدة؟",o:["3×2","2×3","2×2","6"],a:1,why:"صفوف × أعمدة."},
 {q:"مشتقة y = x³؟",o:["x²","3x","3x²","x⁴/4"],a:2,why:"n·xⁿ⁻¹ = 3x²."},
 {q:"الخطوة الأخيرة في الطريقة البيانية للـ LP؟",o:["رسم القيود","اختيار أفضل Corner point","إيجاد Domain","حساب Determinant"],a:1,why:"بنقارن قيم الهدف عند الأركان ونختار max أو min."},
-{q:"المشتقة عند نقطة بتمثل؟",o:["مساحة تحت المنحنى","ميل المماس","قيمة الدالة","Domain"],a:1,why:"Slope of the tangent."}
+{q:"المشتقة عند نقطة بتمثل؟",o:["مساحة تحت المنحنى","ميل المماس","قيمة الدالة","Domain"],a:1,why:"Slope of the tangent."},
+{q:"سعر الوحدة 8 وتكلفة ثابتة 5000 وتكلفة الوحدة 3. كمية التعادل؟",o:["625","1000","1667","5000"],a:1,why:"8Q = 5000 + 3Q فـ 5Q = 5000 و Q = 1000."},
+{q:"رأس القطع y = x² + 2x − 3؟",o:["(1, 0)","(−1, −4)","(−3, 0)","(0, −3)"],a:1,why:"x = −b/2a = −1 و y = 1 − 2 − 3 = −4."},
+{q:"لو a < 0 في y = ax² + bx + c، القطع بيكون؟",o:["مفتوح لفوق وله قيمة صغرى","مفتوح لتحت وله قيمة عظمى","خط مستقيم","دايرة"],a:1,why:"a سالبة يعني القطع مفتوح لتحت والرأس قيمة عظمى."},
+{q:"إزاي نحسب ربح الوحدة المساهم في تغطية التكلفة الثابتة؟",o:["p + v","p − v","p × v","p ÷ v"],a:1,why:"Contribution margin = p − v."}
 ]});
