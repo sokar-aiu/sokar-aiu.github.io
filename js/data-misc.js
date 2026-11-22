@@ -64,13 +64,18 @@ terms:[["APA","نظام توثيق المراجع"],["Table of contents","قائ
 "Specific and clear: محدد وواضح الأهداف والمنهج.",
 "Researchable: ممكن تتنفذ فعلًا بالمتاح."],
 terms:[["Research topic","موضوع البحث"],["Peer-reviewed","محكّم علميًا"]]},
-{t:"Lecture 4 — أنواع المنشورات البحثية ومصادر المعرفة",pts:[
-"Journal articles: Original / Research Article بنتايج تجارب جديدة، Review Article بتلخص وتحلل أبحاث موجودة، Short Communication تقرير قصير، Case Report حالة فردية (شائع في الطب).",
-"Books و Book chapters: مراجع بتشرح المجال بعمق. Conference proceedings و abstracts: أبحاث بتتعرض في المؤتمرات.",
-"Theses (بكالوريوس / ماجستير) و Doctoral dissertation (دكتوراه). Patents: وثائق قانونية لاختراع. Reports: وثائق فنية منظمة زي تقارير UN و FAO و WHO و UNESCO.",
-"Primary sources: دليل أصلي من أول إيد (research articles، theses، interviews، conference proceedings). Secondary: بتفسر المصادر الأولية (textbooks، review articles). Tertiary: بتجمّع وتنظم (dictionaries، encyclopedias، databases، atlases).",
-"آخر السلايدات فيها اختبار تقييمي بدون درجة (Formative) على Microsoft Forms."],
-terms:[["Primary source","مصدر أولي"],["Review article","مقال مراجعة"],["Thesis","رسالة علمية"]]},
+{t:"Lecture 4 — Jobs و Articles (a / an / the)",pts:[
+"محتوى المحاضرة: Jobs، Reading، Indefinite Articles، Definite Articles، Tricky Notes (حالات خاصة مع the)، Listening & Speaking.",
+"مراجعة سريعة: Good morning من ٦ ص لـ ١٢ ظ، Good afternoon بعد ١٢ ظ، Good evening بالليل، Good night للوداع قبل النوم. وأمثلة على Subject pronouns و Possessive.",
+"نص قراءة «A Day in the Community»: ناس بتشتغل في مجتمع واحد (خباز، ممرضة، مدرسة، مهندس، رسام) مع True/False و Multiple choice وتدريب على a / an / the وأسئلة قصيرة.",
+"Job: شغل بتكسب منه فلوس وممكن ما يحتاجش تدريب خاص (كاشير، ويتر، سواق توصيل). Profession: مهنة محتاجة تعليم وتدريب خاص ومسؤولية أكبر (دكتور، مدرس، مهندس، محامي).",
+"وظايف في السلايدات: Nurse، Baker، Builder، Judge، Lawyer، Farmer، Waiter، Butcher، Car mechanic، Flight attendant، Barber، Hairdresser، Pharmacist، Maid.",
+"مقابلة مع رسامة (Annabel): أسئلة زي Where do you work? و How many hours do you work? و Do you like your job? Why? وبتتعمل مطابقة بين الأسئلة والإجابات.",
+"Indefinite article (a / an) للحاجة العامة أو غير المحددة: an قبل صوت متحرك (a e i o u)، و a قبل صوت ساكن. أمثلة: an umbrella، an honest (الـ h مش بتتنطق)، a university (بتبدأ بصوت /y/).",
+"Definite article (the): لما المتكلم والسامع عارفين الحاجة، لما في حاجة واحدة بس (The sun)، وقبل صيغة التفضيل (the best). مثال: I had a quiz. The quiz was difficult.",
+"Tricky Notes: بنستخدم the مع بعض أسماء الدول (the United Kingdom، the United States) ومع سلاسل الجبال (the Alps). مبنستخدمهاش مع الجمع العام (Cats are independent) ولا أسماء المطابخ (Italian food) ولا القارات (Asian cultures).",
+"Listening & Speaking: سؤال عن وظيفة Phil (الإجابة في السلايد: professional football player). وفي الآخر الفرق بين Formal letter و Cover letter مع نموذج لكل واحد."],
+terms:[["Job","وظيفة / شغل"],["Profession","مهنة تحتاج تعليم وتدريب"],["Indefinite article","أداة تنكير (a / an)"],["Definite article","أداة تعريف (the)"]]},
 {t:"Lecture 5 — البحث في قواعد البيانات (Surface vs Deep Web)",pts:[
 "Surface Web: اللي محركات البحث بتفهرسه (Google، Bing) ومتاح للكل، كويس للمعلومات العامة. Deep Web: مجلات وأبحاث ورسائل في قواعد بيانات بتحتاج دخول أو اشتراك مؤسسي، زي Scopus و Web of Science و ScienceDirect و JSTOR و PubMed.",
 "فلاتر البحث: Subject area، Date range (آخر ٥ لـ ١٠ سنين)، Document type، Language.",
@@ -114,7 +119,7 @@ quiz:[
 ]});
 (window.SOKAR=window.SOKAR||{courses:[]}).courses.push({
 id:"lan022",code:"LAN022",name:"English 1",ar:"اللغة الإنجليزية ١",icon:"talk",hue:48,
-who:"د. ياسمين عمارة",src:"سلايدات Lecture 1&2 و3 و4 و5 و6 و7 و8 (نصها اتقرا من الملفات). Lecture 9 و10 مش متغطيين هنا: Canvas مش بيسمح بتحميلهم من حسابنا.",
+who:"د. ياسمين عمارة",src:"سلايدات Lecture 1&2 و3 و4 و5 و6 و7 و8 (نص السلايدات اتقرا من الملفات، ومحاضرة 3 و4 و8 اتراجعت على النص الكامل). Lecture 9 و10 مش متغطيين هنا: Canvas مش بيسمح بتحميلهم من حسابنا.",
 grading:"Quiz 1 و Assignment 1 و Midterm و Quiz 2 أونلاين و مشروع Professional Email Writing (١٥ درجة). حسب Canvas.",
 lectures:[
 {t:"Lecture 1&2 — Nice to Meet You (التحيات و Verb to be)",pts:[
@@ -123,12 +128,17 @@ lectures:[
 "sunrise شروق، sunset غروب، midday / noon الساعة ١٢ الضهر، midnight الساعة ١٢ بالليل.",
 "Hello مناسبة للرسمي وغير الرسمي. قواعد الكلاس: احترام، حضور في الميعاد، شغل بإيدك من غير غش، وذكر المصادر."],
 terms:[["Greeting","تحية"],["Personal pronoun","ضمير شخصي (I, you, he...)"],["WH- question","سؤال بأداة استفهام (What, Where...)"]]},
-{t:"Lecture 3 — Nationalities و Possessive Determiners",pts:[
-"Possessive Determiners قبل الاسم: I → my، you → your، he → his، she → her، we → our، they → their، it → its.",
-"its بدون apostrophe معناها ملكية. it's معناها it is.",
-"الجنسيات والبلاد: Spain → Spanish، Japan → Japanese، Italy → Italian، Egypt → Egyptian، Britain → British.",
-"المحاضرة بتغطي كمان: تكوين Yes/No و WH- Questions، النفي مع Verb to be (am not / is not / are not)، استخدامات to be، و This / That."],
-terms:[["Possessive determiner","صفة ملكية (my, your...)"],["Nationality","الجنسية"]]},
+{t:"Lecture 3 — Nationalities و Possessive Determiners و Verb to be",pts:[
+"محتوى المحاضرة: Possessive Determiners، تكوين الأسئلة، الدول والجنسيات، Listening & Speaking، النفي مع Verb to be، استخدامات to be، النطق، و Demonstratives (this / that).",
+"Possessive Determiners بتيجي قبل الاسم وبتدل على الملكية: I → my، we → our، you → your، they → their، he → his، she → her، it → its. its بدون apostrophe معناها ملكية (This is its collar). it's معناها it is.",
+"أسئلة الـ WH بتطلب معلومة محددة. التركيب: WH-word + Verb to be + Subject + (Complement)? مثال: Where are you from? / What is your nationality?",
+"الإجابات: I am from Japan. / She is from Italy. / I am Canadian. / He is Brazilian.",
+"الدول والجنسيات: Turkey → Turkish، England → English، the U.S.A → American، Spain → Spanish، Italy → Italian، Germany → German، China → Chinese، France → French، Japan → Japanese، Brazil → Brazilian، Greece → Greek، Egypt → Egyptian.",
+"النفي مع to be: Subject + am / is / are + not + Complement. مثال: She is not happy (She isn't happy). The book is not interesting.",
+"استخدامات Verb to be (٩): الاسم، الجنسية، المهنة، السن، المشاعر، الوصف الجسدي، المكان، الطقس، الوقت والتاريخ.",
+"Demonstratives: this للمفرد القريب، that للمفرد البعيد، these للجمع القريب، those للجمع البعيد.",
+"أنشطة في السلايدات: نص قراءة عن طلبة من دول مختلفة مع T/F وأسئلة WH، تدريب على الحوار بأسئلة WH، ومهمة كتابة ٦ لـ ٨ جمل عن زمايل من دول مختلفة (present simple مع countries و nationalities و to be وكلمات ربط زي and و but و because). والسلايد الأخير بيحيلك لـ assignment على Canvas."],
+terms:[["Possessive determiner","صفة ملكية (my, your...)"],["Nationality","الجنسية"],["Demonstrative","اسم إشارة (this, that, these, those)"]]},
 {t:"Lecture 4 — Jobs و Articles (a / an / the)",pts:[
 "المحاضرة عن الوظائف (baker، nurse، teacher، engineer، artist) وقراءة نص عن ناس بتشتغل في مجتمع واحد.",
 "Indefinite article a / an مع الاسم المفرد المعدود: a قبل صوت ساكن، an قبل صوت متحرك.",
@@ -156,12 +166,19 @@ terms:[["Nuclear family","أسرة نواة"],["In-laws","أقارب المصا�
 "نضيف Excuse me أو Pardon me في أول السؤال عشان يبقى مؤدب.",
 "Formal email: Subject واضح، تحية بلقب واسم العيلة (Dear Professor Lee)، جملة افتتاحية بالغرض، فقرات منظمة، وخاتمة مؤدبة (Best regards). من غير اختصارات. Informal email: ودّي وبسيط (Hi John)."],
 terms:[["Polite request","طلب مؤدب"],["Formal email","إيميل رسمي"],["Check in","تسجيل الدخول للفندق"]]},
-{t:"Lecture 8 — Daily Routine و House Chores",pts:[
-"نص قراءة عن مين بيعمل إيه في البيت: يطبخ، يغسل الهدوم (laundry)، يكنس بالمكنسة (vacuums)، ياخد الزبالة (takes out the trash)، ويطعم القطة.",
-"مفردات: chores = شغل البيت، laundry = الغسيل.",
-"تدريب على Present Simple مع s للغايب: cooks، vacuums، takes، cleans، والفعل have بيبقى have مع الجمع.",
-"تدريب كمان على True / False وعلى WH- questions بإجابات كاملة."],
-terms:[["Chores","مهام البيت"],["Laundry","الغسيل"]]}
+{t:"Lecture 8 — House Chores و Daily Routine و Past Simple",pts:[
+"نص قراءة «Who Does the Chores at Home?»: Fatima بتطبخ وبتجهز الغدا للأولاد، Omar بيغسل الهدوم وبيكنس بالمكنسة يوم السبت، Leila بتأكل القطة وبتحضّر السفرة، Sami بيرمي الزبالة ويساعد في الأطباق، والأسرة بتنضف مع بعض يوم الأحد.",
+"أسئلة على النص: مفردات (laundry = الغسيل، chores = مهام البيت)، True/False، تدريب على Present Simple (cooks، vacuums، have، takes، cleans)، وأسئلة WH بإجابات كاملة.",
+"مفردات الشغل: wash the dishes، sweep / mop the floor، vacuum the carpet، wash the windows، dust the furniture، wash / iron the clothes، make the bed، cook the meals، set the table، take out the trash، water the plants.",
+"Adverbs of frequency (always، often، sometimes، rarely، never): بتيجي قبل الفعل الأساسي (I always wake up at 8) وبعد Verb to be (I am always happy). مع never بنستخدم فعل مثبت.",
+"Expressions of frequency (every day / week / weekend / month) بتيجي في آخر الجملة: I wake up at 8 AM every day.",
+"السؤال عن التكرار: How often + do / does + subject + verb (infinitive)? مثال: How often do you use your computer?",
+"قراءة الوقت: o'clock، half past (مثلًا half past 6 = 6:30)، quarter past (quarter past 3 = 3:15)، quarter to (quarter to 9 = 8:45).",
+"Past Simple للأحداث اللي بدأت وخلصت في الماضي. الإيجابي: لو الفعل بينتهي بـ e بنضيف d (like → liked)، لو بينتهي بحرف علة + y بنضيف ed (play → played)، لو بينتهي بحرف ساكن + y بنشيل y ونضيف ied (try → tried).",
+"النفي: subject + didn't + الفعل الأصلي (She didn't clean the windows). السؤال: Did + subject + verb? والإجابات: Yes, I did / No, I didn't.",
+"Verb to be في الماضي: was مع I و he و she و it، و were مع we و you و they. النفي wasn't / weren't، والسؤال Was / Were + subject?",
+"في السلايدات قائمة بالأفعال الشاذة (irregular verbs) وتدريب على تحويل جمل للماضي (went، made، bought، broke، baked، ...). وفي آخر السلايدات تدريب على Fill in the blanks بالماضي."],
+terms:[["Chores","مهام البيت"],["Laundry","الغسيل"],["Adverb of frequency","ظرف تكرار (always, never...)"],["Past simple","الماضي البسيط"]]}
 ],
 cards:[
 ["أوقات اليوم: afternoon بتبدأ إمتى؟","من ١٢ الضهر لحد حوالي ٦ المغرب"],
