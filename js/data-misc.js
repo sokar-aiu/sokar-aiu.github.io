@@ -96,7 +96,7 @@ quiz:[
 ]});
 (window.SOKAR=window.SOKAR||{courses:[]}).courses.push({
 id:"lan022",code:"LAN022",name:"English 1",ar:"اللغة الإنجليزية ١",icon:"talk",hue:48,
-who:"د. ياسمين عمارة",src:"سلايدات Lecture 1&2 و3 و4 و5 و6 و7 و8 (نصها اتقرا من الملفات). Lecture 9 و10 لسه مش متغطيين هنا.",
+who:"د. ياسمين عمارة",src:"سلايدات Lecture 1&2 و3 و4 و5 و6 و7 و8 (نصها اتقرا من الملفات). Lecture 9 و10 مش متغطيين هنا: Canvas مش بيسمح بتحميلهم من حسابنا.",
 grading:"Quiz 1 و Assignment 1 و Midterm و Quiz 2 أونلاين و مشروع Professional Email Writing (١٥ درجة). حسب Canvas.",
 lectures:[
 {t:"Lecture 1&2 — Nice to Meet You (التحيات و Verb to be)",pts:[
