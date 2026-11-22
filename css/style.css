@@ -87,3 +87,5 @@ html,body{overflow-x:hidden;max-width:100%}.b,.orbit{max-width:100vw}
 @keyframes inUp{from{opacity:0;transform:translateY(24px) scale(.96)}to{opacity:1;transform:none}}
 @keyframes inGlow{to{filter:drop-shadow(0 0 14px rgba(45,212,191,.6))}}
 @media(prefers-reduced-motion:reduce){#intro,#intro *{animation:none!important;transition:none!important}}
+
+.wish{text-align:center;font-size:clamp(1.2rem,4vw,1.8rem);font-weight:700;padding:.6rem 0 0;background:linear-gradient(90deg,#2dd4bf,#8b5cf6,#fbbf24);-webkit-background-clip:text;background-clip:text;color:transparent}
