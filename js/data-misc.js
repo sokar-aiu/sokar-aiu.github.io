@@ -33,9 +33,21 @@ quiz:[
 ]});
 (window.SOKAR=window.SOKAR||{courses:[]}).courses.push({
 id:"lib116",code:"LIB116",name:"Research and Analysis Skills",ar:"مهارات البحث والتحليل",icon:"book",hue:200,
-who:"د. إيمان نور",src:"Research Project Guidelines + سلايدات Lecture 3 و4 و5 و6. محاضرات 1 و2 (فيديو) مش مغطية هنا.",
+who:"د. إيمان نور",src:"Research Project Guidelines + سلايدات Lectures 1-2 (ملف PDF من ١١ صفحة، اتقرا بـOCR وجزء من الرسوم والصور ما اتقراش) و3 و4 و5 و6. الفيديوهات مش مغطية هنا.",
 grading:"Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠.",
 lectures:[
+{t:"Lectures 1 و2 — مقدمة مفاهيم البحث (Search vs Research)",pts:[
+"توزيع الدرجات في أول السلايدات: Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠.",
+"Search (البحث عن إجابة): Fact-finding و Retrieval، يعني تلاقي إجابة موجودة أصلًا، زي «عاصمة فرنسا إيه؟» أو «مين اخترع المصباح؟».",
+"Research (البحث العلمي): بتبني فهم جديد، زي «إزاي نحسّن عمر البطارية؟». السلايد بيقارن بين الاتنين: Finding Existing Answers مقابل Constructing New Understanding.",
+"الرسم في السلايد بيدرّج الكلمات من Known و Verification و Retrieval لحد Unknown و Investigation و Synthesis و Analysis و Methodology. جزء من الرسم صورة والـOCR ما قراهوش كله.",
+"تعريف Research: عملية منظمة لجمع المعلومات (البيانات) وتحليلها وتفسيرها عشان تجاوب أسئلة أو تحل مشكلات أو تولّد معرفة جديدة.",
+"الأهداف: توسيع المعرفة الموجودة، إيجاد حلول لمشكلات بحثية، دعم اتخاذ القرار والسياسات، وسد الفجوات البحثية (research gaps).",
+"النطاق: Basic research بيطوّر المعرفة من غير تطبيق فوري، و Applied research بيعالج مشكلات عملية محددة.",
+"عملية البحث بتبدأ بتحديد سؤال أو موضوع واضح واختيار الأدوات المناسبة.",
+"مصادر الفجوات البحثية: ١) Literature-based gaps ٢) AI-based gap search ٣) Real-world challenges.",
+"أولويات عالمية: أهداف الأمم المتحدة للتنمية المستدامة (SDGs). أولويات وطنية: رؤية مصر ٢٠٣٠ (Egypt Vision 2030). السلايدات دي معلّمة Reading only."],
+terms:[["Research gap","فجوة بحثية: حاجة لسه ماتبحثتش كفاية"],["Basic research","بحث أساسي لتطوير المعرفة"],["Applied research","بحث تطبيقي لمشكلة عملية"],["SDGs","أهداف التنمية المستدامة"]]},
 {t:"شروط مشروع البحث (Research Project)",pts:[
 "بحث فردي بالإنجليزي، ١٥ صفحة على الأقل، متعلق بتخصصك.",
 "يتكتب في Word على الـ Template الرسمي ويتحول PDF ويترفع على Microsoft Forms بإيميل الجامعة.",
@@ -83,9 +95,15 @@ cards:[
 ["AND في Boolean بتعمل إيه؟","بتضيّق النتايج: لازم الكلمتين"],
 ["علامة * في البحث؟","Truncation: بتجيب كل صيغ الكلمة"],
 ["Results في الورقة بتعمل إيه؟","بتوصف النتايج من غير تفسير"],
-["كام keyword عادة؟","من ٥ لـ ١٠"]
+["كام keyword عادة؟","من ٥ لـ ١٠"],
+["الفرق بين Search و Research؟","Search بيلاقي إجابة موجودة. Research بيبني فهم جديد"],
+["Basic مقابل Applied research؟","Basic بيطوّر المعرفة من غير تطبيق فوري. Applied بيحل مشكلة عملية"],
+["مصادر الفجوات البحثية؟","Literature-based و AI-based gap search و Real-world challenges"]
 ],
 quiz:[
+{q:"سؤال زي «عاصمة فرنسا إيه؟» ده؟",o:["Research","Fact-finding / Retrieval","Synthesis","Methodology"],a:1,why:"السلايد بيحط أسئلة المعلومة الجاهزة تحت Fact-finding و Retrieval."},
+{q:"Applied research بيهدف لـ؟",o:["تطوير المعرفة من غير تطبيق","معالجة مشكلات عملية محددة","الحفظ فقط","جمع مراجع"],a:1,why:"Applied: to address specific, practical issues."},
+{q:"أي دي مش من مصادر الفجوات البحثية في السلايدات؟",o:["Literature-based","AI-based gap search","Real-world challenges","تخمين عشوائي"],a:3,why:"المصادر التلاتة: Literature-Based و AI-Based و Real-World Challenges."},
 {q:"عنوان الجدول (Table caption) مكانه؟",o:["فوق الجدول","تحت الجدول","في الهامش","آخر البحث"],a:0,why:"عناوين الجداول فوقها وعناوين الأشكال تحتها."},
 {q:"حجم الخط للعناوين الرئيسية؟",o:["12","14","16","18"],a:2,why:"Main headings: Bold 16."},
 {q:"موضوع البحث الجيد لازم يكون؟",o:["Researchable","غامض","قديم","مفيش شروط"],a:0,why:"من المعايير: Researchable."},
