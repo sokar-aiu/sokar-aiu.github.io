@@ -34,7 +34,7 @@ quiz:[
 (window.SOKAR=window.SOKAR||{courses:[]}).courses.push({
 id:"lib116",code:"LIB116",name:"Research and Analysis Skills",ar:"مهارات البحث والتحليل",icon:"book",hue:200,
 who:"د. إيمان نور",src:"Research Project Guidelines + سلايدات Lecture 3 و4 و5 و6. محاضرات 1 و2 (فيديو) مش مغطية هنا.",
-grading:"Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠. ملحوظة من سلايد د. إيمان: الميدترم كان السبت ١٤ نوفمبر ٢٠٢٦ الساعة ١٠:٣٠ صباحًا لمدة ٤٥ دقيقة حضوريًا، من ٣٠ درجة وفي ٦ محاضرات.",
+grading:"Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠.",
 lectures:[
 {t:"شروط مشروع البحث (Research Project)",pts:[
 "بحث فردي بالإنجليزي، ١٥ صفحة على الأقل، متعلق بتخصصك.",
