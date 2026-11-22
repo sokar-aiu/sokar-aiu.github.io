@@ -1,6 +1,6 @@
 (window.SOKAR=window.SOKAR||{courses:[]}).courses.push({
 id:"fin101",code:"FIN101",name:"Introduction to Microeconomics",ar:"مقدمة في الاقتصاد الجزئي",icon:"chart",hue:262,
-who:"د. مها عسفور و د. رانيا أنيس",src:"سلايدات Micro-Lect 1 إلى 6 و 9 + ملف Midterm Revision المُجاب",
+who:"د. مها عسفور و د. رانيا أنيس",src:"سلايدات Micro-Lect 1 إلى 6 و 9 + ملف Midterm Revision المُجاب ملحوظة: Canvas بيرقّم الملفات بالأسبوع (Week 8 = سلايد Lecture 6، Week 9 = Lecture 9)، ومفيش ملف لـ Lecture 7 أو 8 منفصل.",
 grading:"توزيع الدرجات لم يُراجَع من مصدر رسمي هنا. راجع Canvas.",
 lectures:[
 {t:"Lecture 1 — المشكلة الاقتصادية والمفاهيم الأساسية",pts:[
