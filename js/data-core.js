@@ -7,6 +7,9 @@ SOKAR.links=[
 ];
 /* status: confirmed = مصدره إعلان رسمي، conflict = مصادر متعارضة، expected = متوقع ولم يُعلن */
 SOKAR.deadlines=[
+ {id:"acc-q2-c",c:"acc111",title:"ACC111 Quiz 2: المجموعة C (لجان)",type:"quiz",at:"2026-11-23T14:15:00+02:00",time:true,status:"confirmed",note:"الاثنين ٢٣ نوفمبر الساعة ٢:١٥ العصر حسب إعلان لجان الكويز على Canvas. توزيع الأسماء على اللجان في ملف PDF رسمي جوه Canvas، افتحه من صفحة المادة."},
+ {id:"acc-q2-a",c:"acc111",title:"ACC111 Quiz 2: المجموعة A (لجان)",type:"quiz",at:"2026-11-24T11:00:00+02:00",time:true,status:"confirmed",note:"الثلاثاء ٢٤ نوفمبر على جلستين: ١١:٠٠ و١١:٣٥ صباحًا حسب إعلان Canvas. ملف التوزيع الرسمي جوه Canvas."},
+ {id:"acc-q2-b",c:"acc111",title:"ACC111 Quiz 2: المجموعة B (لجان)",type:"quiz",at:null,status:"conflict",note:"الإعلان ذكر الساعات ٢:١٥ و٢:٤٥ العصر بس من غير تاريخ واضح. التاريخ لسه ما اتأكدش، راجع إعلان المادة على Canvas."},
  {id:"mgt-tut-nov26",c:"mgt122",title:"MGT122 Tutorial أونلاين على Teams",type:"tutorial",at:"2026-11-26T14:30:00+02:00",time:true,status:"confirmed",note:"الأسبوع ده بس. الساعة ٢:٣٠ العصر بتوقيت القاهرة."},
  {id:"lib-research-nov30",c:"lib116",title:"تسليم Research Project (فردي، ٢٠ درجة)",type:"project",at:"2026-11-30T00:00:00+02:00",time:false,status:"confirmed",note:"آخر يوم للرفع: الاثنين ٣٠ نوفمبر عن طريق Microsoft Forms. الساعة مش محددة في الإعلان."},
  {id:"lan-quiz2",c:"lan022",title:"LAN022 Quiz 2 أونلاين",type:"quiz",at:null,status:"conflict",note:"متعارض: Canvas بيقول الجمعة ٢٧ نوفمبر ١٢:٠٠ إلى ١٢:٤٥، ورسالة الدكتورة بتقول السبت ٢٨ نوفمبر ١٢ الظهر. اسأل الدكتورة أو راجع Canvas قبل ما تعتمد على يوم."},
@@ -24,3 +27,12 @@ org:'<rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6"
 leaf:'<path d="M5 19c0-9 5-14 15-14 0 10-5 15-14 15"/><path d="M5 19c3-5 6-7 10-9"/>',
 book:'<path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v13c-3-1-6-1-8 1-2-2-5-2-8-1z"/><path d="M12 6v13"/>',
 talk:'<path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/>'};
+SOKAR.reviewed="٢٢ نوفمبر ٢٠٢٦، حوالي ١١:٤٠ م (توقيت القاهرة)";
+SOKAR.published="٢٣ نوفمبر ٢٠٢٦";
+SOKAR.updates=[
+["٢٣ نوفمبر","إعلانات لجان ACC111 Quiz 2 اتضافت في المواعيد (المجموعة C الاثنين ٢:١٥ م، A الثلاثاء ١١:٠٠ و١١:٣٥ ص، B التاريخ لسه مش واضح). توزيع الأسماء في ملفات رسمية على Canvas ومش منشور هنا."],
+["٢٣ نوفمبر","ملخصات LAN022 (٧ محاضرات)، LIB116 محاضرات ٤ إلى ٦، MAT214 محاضرة ٥، وملخص SDGs & HRM في GEO217."],
+["٢٣ نوفمبر","أداة «لجنتي»: بتقرا ملف اللجان على جهازك بس، من غير ما أي كشف يتحط على الموقع."],
+["٢٣ نوفمبر","LAN022 محاضرة 9 و10 موجودين على Canvas بس التحميل مرفوض من حسابك، فمش متغطيين."]
+];
+SOKAR.canvasIds={acc111:3072,fin101:3084,geo217:3450,lan022:3451,lib116:3457,mat214:3396,mgt122:3091};
