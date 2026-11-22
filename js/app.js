@@ -109,4 +109,12 @@ var th=store.get("theme","dark");document.documentElement.dataset.theme=th;$("#t
 addEventListener("hashchange",route);stars();route();
 /* page-open reminder */
 try{if("Notification"in window&&Notification.permission==="granted"){var d=nextDated().filter(function(x){return x.time&&until(x)>0&&until(x)<864e5})[0],k="n."+(d&&d.id);if(d&&!store.get(k,false)){store.set(k,true);new Notification("موعد قريب: "+d.title,{body:human(until(d))})}}}catch(e){}
+
+(function(){var K="sokar.name",nm="",rm=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;try{nm=localStorage.getItem(K)||""}catch(e){}
+var o=document.createElement("div");o.id="intro";o.setAttribute("role","dialog");o.setAttribute("aria-label","ترحيب");
+function close(){o.classList.add("out");setTimeout(function(){o.remove()},rm?0:600);document.removeEventListener("keydown",esc)}
+function esc(e){if(e.key==="Escape")close()}
+function welcome(){o.innerHTML='<div class="in-box"><div class="in-salat">اللهم صلِّ وسلم على نبينا محمد ﷺ</div><div class="in-wel" dir="ltr"></div><button class="btn pri in-go">يلا نبدأ</button></div>';o.querySelector(".in-wel").textContent="Welcome"+(nm?", "+nm:"");o.querySelector(".in-go").onclick=close;o.querySelector(".in-go").focus();if(nm)setTimeout(close,rm?6000:5200)}
+function ask(){o.innerHTML='<div class="in-box"><div class="in-salat">اللهم صلِّ وسلم على نبينا محمد ﷺ</div><p class="in-q">تحب نناديك بإيه؟ (اختياري، بيتحفظ على جهازك بس)</p><input id="inm" maxlength="30" autocomplete="off" placeholder="اسمك"><div class="in-row"><button class="btn pri" id="inok">كمّل</button><button class="btn" id="inskip">تخطي</button></div></div>';var i=o.querySelector("#inm");function go(){nm=i.value.trim();try{if(nm)localStorage.setItem(K,nm)}catch(e){}welcome()}o.querySelector("#inok").onclick=go;i.onkeydown=function(e){if(e.key==="Enter")go()};o.querySelector("#inskip").onclick=close;i.focus()}
+document.addEventListener("keydown",esc);document.body.appendChild(o);if(nm)welcome();else ask()})();
 })();
