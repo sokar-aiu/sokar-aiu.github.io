@@ -36,7 +36,7 @@ id:"lib116",code:"LIB116",name:"Research and Analysis Skills",ar:"مهارات �
 who:"د. إيمان نور",src:"Research Project Guidelines + سلايدات Lectures 1-2 (ملف PDF من ١١ صفحة، اتقرا بـOCR وجزء من الرسوم والصور ما اتقراش) و3 و4 و5 و6. الفيديوهات مش مغطية هنا.",
 grading:"Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠.",
 lectures:[
-{t:"Lectures 1 و2 — مقدمة مفاهيم البحث (Search vs Research)",pts:[
+{t:"Lectures 1-2 — مقدمة مفاهيم البحث (Search vs Research)",pts:[
 "توزيع الدرجات في أول السلايدات: Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠.",
 "Search (البحث عن إجابة): Fact-finding و Retrieval، يعني تلاقي إجابة موجودة أصلًا، زي «عاصمة فرنسا إيه؟» أو «مين اخترع المصباح؟».",
 "Research (البحث العلمي): بتبني فهم جديد، زي «إزاي نحسّن عمر البطارية؟». السلايد بيقارن بين الاتنين: Finding Existing Answers مقابل Constructing New Understanding.",
