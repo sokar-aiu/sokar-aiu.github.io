@@ -33,11 +33,11 @@ quiz:[
 ]});
 (window.SOKAR=window.SOKAR||{courses:[]}).courses.push({
 id:"lib116",code:"LIB116",name:"Research and Analysis Skills",ar:"مهارات البحث والتحليل",icon:"book",hue:200,
-who:"د. إيمان نور",src:"Research Project Guidelines + سلايدات Lectures 1-2 (ملف PDF من ١١ صفحة، اتقرا بـOCR وجزء من الرسوم والصور ما اتقراش) و3 و4 و5 و6. الفيديوهات مش مغطية هنا.",
+who:"د. إيمان نور",src:"Research Project Guidelines + سلايدات Lectures 1-2 (ملف Summer PDF من ١١ صفحة، اتقرا بـOCR وجزء من الرسوم والصور ما اتقراش) و3 و4 و5 و6. الفيديوهات مش مغطية هنا.",
 grading:"Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠.",
 lectures:[
 {t:"Lectures 1-2 — مقدمة مفاهيم البحث (Search vs Research)",pts:[
-"توزيع الدرجات في أول السلايدات: Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠.",
+"توزيع الدرجات اللي في أول السلايدات (ملف الصيفي Summer): Quizzes ١٠ + Midterm ٣٠ + Project ٢٠ + Final ٤٠. ده من مادة الصيف، فاعتمد على سيلابس الترم الحالي لو اختلف.",
 "Search (البحث عن إجابة): Fact-finding و Retrieval، يعني تلاقي إجابة موجودة أصلًا، زي «عاصمة فرنسا إيه؟» أو «مين اخترع المصباح؟».",
 "Research (البحث العلمي): بتبني فهم جديد، زي «إزاي نحسّن عمر البطارية؟». السلايد بيقارن بين الاتنين: Finding Existing Answers مقابل Constructing New Understanding.",
 "الرسم في السلايد بيدرّج الكلمات من Known و Verification و Retrieval لحد Unknown و Investigation و Synthesis و Analysis و Methodology. جزء من الرسم صورة والـOCR ما قراهوش كله.",
