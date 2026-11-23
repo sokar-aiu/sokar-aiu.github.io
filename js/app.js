@@ -119,7 +119,7 @@ addEventListener("hashchange",route);stars();route();
 try{if("Notification"in window&&Notification.permission==="granted"){var d=nextDated().filter(function(x){return x.time&&until(x)>0&&until(x)<864e5})[0],k="n."+(d&&d.id);if(d&&!store.get(k,false)){store.set(k,true);new Notification("Upcoming: "+d.title,{body:human(until(d))})}}}catch(e){}
 
 (function(){var K="sokar.name",nm="",rm=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;try{nm=localStorage.getItem(K)||""}catch(e){}
-var o=document.createElement("div");o.id="intro";o.setAttribute("role","dialog");o.setAttribute("aria-label","Welcome");
+try{if(sessionStorage.getItem("sokar.sw")){sessionStorage.removeItem("sokar.sw");return}}catch(e){}var o=document.createElement("div");o.id="intro";o.setAttribute("role","dialog");o.setAttribute("aria-label","Welcome");
 function close(){o.classList.add("out");setTimeout(function(){o.remove()},rm?0:600);document.removeEventListener("keydown",esc)}
 function esc(e){if(e.key==="Escape")close()}
 function welcome(){o.innerHTML='<div class="in-box"><div class="wordmark" dir="ltr">Sokar</div><div class="in-salat">اللهم صلِّ وسلم على نبينا محمد ﷺ</div><div class="in-wel" dir="ltr"></div><button class="btn pri in-go">Enter</button></div>';o.querySelector(".in-wel").textContent="Welcome"+(nm?", "+nm:"");o.querySelector(".in-go").onclick=close;o.querySelector(".in-go").focus();if(nm)setTimeout(close,rm?6000:5200)}
