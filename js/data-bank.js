@@ -56,6 +56,15 @@ mat214:[
 {s:MD,q:"Evaluate the 3×3 determinant with rows (1, 2, 3), (0, 1, 4), (5, 6, 0).",o:["1","−1","49","−49"],a:0,why:"1(0 − 24) − 2(0 − 20) + 3(0 − 5) = −24 + 40 − 15 = 1."},
 {s:MD,q:"Solve by Cramer's rule: 2x + y = 7 and x + 3y = 11. What is x?",o:["1","2","3","4"],a:1,why:"Δ = 2×3 − 1×1 = 5. Δx = 7×3 − 1×11 = 10. x = 10 ÷ 5 = 2 (and y = 3)."},
 {s:MD,q:"If every element of one column of a determinant is zero, what is its value?",o:["0","1","The sum of the other columns","It cannot be found"],a:0,why:"A row or column of zeros makes the determinant 0."}
+,
+{s:MD,q:"For B = rows (4, −1, 7), (0, 3, 2), (5, 8, 6), what is a₃₁ + a₂₃?",o:["7","13","11","5"],a:0,why:"a₃₁ = 5 and a₂₃ = 2, so the sum is 7."},
+{s:MD,q:"If the matrices with rows (x+1, 3), (2, y−4) and (5, 3), (2, 6) are equal, what are x and y?",o:["x = 4, y = 10","x = 5, y = 6","x = 4, y = 2","x = 6, y = 10"],a:0,why:"Equal matrices have equal elements: x + 1 = 5 so x = 4, and y − 4 = 6 so y = 10."},
+{s:MD,q:"A is 3 × 2 and B is 2 × 5. Which statement is right?",o:["AB is 3 × 5 and BA is defined","AB is 3 × 5 and BA is not defined","AB is 2 × 2","Neither is defined"],a:1,why:"AB exists because A has 2 columns and B has 2 rows. BA needs 5 = 3, which fails."},
+{s:MD,q:"Does A = rows (2, 4), (1, 2) have an inverse?",o:["Yes, |A| = 8","Yes, |A| = 1","No, |A| = 0","No, A is not square"],a:2,why:"|A| = 2×2 − 4×1 = 0, so there is no inverse."},
+{s:MD,q:"Find A⁻¹ for A = rows (5, 2), (7, 3) by the adjoint method.",o:["rows (3, −2), (−7, 5)","rows (3, 2), (7, 5)","rows (−3, 2), (7, −5)","rows (5, −2), (−7, 3)"],a:0,why:"|A| = 15 − 14 = 1. adj A swaps the diagonal and changes the signs of the other two."},
+{s:MD,q:"Use the inverse to solve 2x + y = 8 and x + 3y = 9. What is (x, y)?",o:["(3, 2)","(2, 3)","(4, 0)","(1, 6)"],a:0,why:"|A| = 5. x = (24 − 9)/5 = 3 and y = (−8 + 18)/5 = 2."},
+{s:MD,q:"Revenue R = 8q, cost C = 3q + 5000. What is the break-even quantity?",o:["1,000 units","625 units","5,000 units","1,600 units"],a:0,why:"8q = 3q + 5000 gives q = 1000. Revenue is 8,000."},
+{s:MD,q:"Find the equilibrium (P, Q) for P = −Q + 15 and P = 2Q.",o:["P = 10, Q = 5","P = 5, Q = 10","P = 15, Q = 0","P = 7.5, Q = 3.75"],a:0,why:"2Q = −Q + 15 gives Q = 5 and P = 10."}
 ],
 mgt122:[
 {s:MG,q:"A manager trusts employees to take responsibility and work toward goals without constant supervision. Which approach is this?",o:["Theory X","Theory Y","Closed systems theory","Mechanistic structure"],a:1,why:"Theory Y assumes people can be responsible and self-motivated."},
@@ -72,7 +81,11 @@ mgt122:[
 {s:C3,q:"Tactical planning is mainly done by:",o:["Top management, 3 to 5 years","Middle managers, about 1 to 3 years","First-line managers, daily schedules","Customers"],a:1,why:"The slides give middle managers and a medium horizon of about 1 to 3 years."},
 {s:C4,q:"Which structure has employees report ONLY to a product team manager?",o:["Matrix","Product team","Functional","Hybrid"],a:1,why:"In a product team structure employees are permanently in a cross-functional team and report only to its manager. Matrix has two bosses."},
 {s:C4,q:"Compared with a tall organization, a flat organization has:",o:["Narrower spans and more levels","Wider spans, fewer levels and faster communication","Higher overhead","Slower decisions"],a:1,why:"Flat: few levels, wide span, faster communication and lower overhead."},
-{s:C4,q:"Which integrating mechanism is a permanent team of members from different departments?",o:["Direct contact","Liaison role","Task force","Cross-functional team"],a:3,why:"A task force is temporary. A cross-functional team is permanent."}
+{s:C4,q:"Which integrating mechanism is a permanent team of members from different departments?",o:["Direct contact","Liaison role","Task force","Cross-functional team"],a:3,why:"A task force is temporary. A cross-functional team is permanent."},
+{s:MG,q:"Statement from the Tutorial 7 key: according to Contingency Theory there is one best way to organize every company.",o:["True","False"],a:1,why:"The tutorial's key marks this as false. Contingency theory says no single best way exists."},
+{s:MG,q:"Statement: Mechanistic structures are most suitable for unstable, rapidly changing environments.",o:["True","False"],a:1,why:"The key marks it false. Mechanistic suits stable environments."},
+{s:MG,q:"Statement: Decentralizing authority is consistent with Theory Y.",o:["True","False"],a:0,why:"The key marks it true."},
+{s:MG,q:"Statement: At the output stage organizations transform inputs into finished goods and services.",o:["True","False"],a:1,why:"The key marks it false. The transformation happens at the conversion stage."}
 ]};
 SOKAR.courses.forEach(function(c){(bank[c.id]||[]).forEach(function(q){c.quiz.push(q)})});
 })();
