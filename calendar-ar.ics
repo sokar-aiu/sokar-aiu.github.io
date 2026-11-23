@@ -4,63 +4,6 @@ PRODID:-//Sokar Hub//AR
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Sokar Hub - مواعيد الدفعة
 BEGIN:VEVENT
-UID:acc-q2-c@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
-DTSTART:20261123T121500Z
-DTEND:20261123T131500Z
-SUMMARY:ACC111 Quiz 2: المجموعة C (لجان)
-DESCRIPTION:الاثنين ٢٣ نوفمبر الساعة ٢:١٥ العص
- ر حسب إعلان لجان الكويز على Canvas. توزيع ال
- أسماء على اللجان في ملف PDF رسمي جوه Canvas، 
- افتحه من صفحة المادة.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:acc-q2-a@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
-DTSTART:20261124T090000Z
-DTEND:20261124T100000Z
-SUMMARY:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١١:
- ٣٥ (راجع الكشف)
-DESCRIPTION:الثلاثاء ٢٤ نوفمبر على جلستين: ١١:
- ٠٠ و١١:٣٥ صباحًا حسب إعلان Canvas. التنبيه م
- تظبط على أبكر جلسة ١١:٠٠ بس، وجلستك ممكن 
- تكون ١١:٣٥. راجع ملف التوزيع الرسمي جوه Ca
- nvas وعدّل الموعد عندك.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
- ١:٣٥ (راجع الكشف)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
- ١:٣٥ (راجع الكشف)
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
- ١:٣٥ (راجع الكشف)
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
 DTSTAMP:20261122T224038Z
 DTSTART:20261126T123000Z
@@ -103,5 +46,69 @@ ACTION:DISPLAY
 DESCRIPTION:تسليم Research Project (فردي، ٢٠ درجة)
 TRIGGER:-P3D
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-online-q-nov26@sokar-aiu.github.io
+DTSTAMP:20261123T165800Z
+DTSTART:20261126T200000Z
+DTEND:20261126T201500Z
+SUMMARY:ACC111 كويز أونلاين: Closing و Unearned Revenue
+DESCRIPTION:الخميس ٢٦ نوفمبر من ١٠:٠٠ لـ١٠:١٥ م
+ ساءً بتوقيت القاهرة. ١٢ سؤال اختيار من م
+ تعدد، ٤ درجات. اللينك الشخصي على الإيميل
+ ، حسب إعلان Canvas.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 كويز أونلاين: Closing و Unearned Revenue
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 كويز أونلاين: Closing و Unearned Revenue
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 كويز أونلاين: Closing و Unearned Revenue
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lan-email-nov27@sokar-aiu.github.io
+DTSTAMP:20261123T165800Z
+DTSTART:20261127T214900Z
+DTEND:20261127T215900Z
+SUMMARY:LAN022 آخر ميعاد تسليم Professional Email Writing (١
+ ٥ درجة)
+DESCRIPTION:الجمعة ٢٧ نوفمبر الساعة ١١:٥٩ مساء
+ ً، حسب Canvas.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 آخر ميعاد تسليم Professional Email Writing
+  (١٥ درجة)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 آخر ميعاد تسليم Professional Email Writing
+  (١٥ درجة)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 آخر ميعاد تسليم Professional Email Writing
+  (١٥ درجة)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:withdraw-dec10@sokar-aiu.github.io
+DTSTAMP:20261123T165800Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:آخر يوم للانسحاب من مادة (على مستوى ا
+ لجامعة)
+DESCRIPTION:١٠ ديسمبر، نهاية الأسبوع ١٢، حسب إ
+ علان الجامعة. الإعلان مفيهوش ساعة.
 END:VEVENT
 END:VCALENDAR
