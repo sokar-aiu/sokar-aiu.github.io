@@ -98,3 +98,11 @@ main#app{min-height:100vh}
 .ttm{display:flex;flex-wrap:wrap;gap:2px 14px}
 
 :root{color-scheme:dark}[data-theme=light]{color-scheme:light}
+
+/* Theme H: solid black + orange (solid text/buttons, no gradient text) */
+:root{--bg:#000;--bg2:#0c0c0c;--card:rgba(255,255,255,.08);--bd:rgba(255,255,255,.22);--tx:#fff;--mut:#c4c4c4;--pri:#fb923c;--pri2:#fb923c;--on:#1a0a00;--warn:#fde047}
+[data-theme=light]{--bg:#fff7ed;--bg2:#fff;--card:rgba(255,255,255,.95);--bd:rgba(60,30,0,.2);--tx:#1c1209;--mut:#57432b;--pri:#c2410c;--pri2:#c2410c;--on:#fff;--warn:#a16207}
+.grad,.wordmark,.in-salat,.stats b,.wish{background:none!important;-webkit-text-fill-color:currentColor!important;filter:none!important;color:var(--pri)!important}
+.btn.pri,.logo,.float,.tab.on,.bottom a.on{background:var(--pri)!important;color:var(--on)!important}
+.b{opacity:.12}.b1,.b3{background:var(--pri)}.b2{background:#fff}[data-theme=light] .b{opacity:.08}[data-theme=light] .b2{background:#c2410c}
+#intro{background:radial-gradient(circle at 50% 40%,#2a1200,#000 70%)}
