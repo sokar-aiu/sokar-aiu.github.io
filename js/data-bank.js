@@ -1,6 +1,7 @@
 /* Extra practice questions written from Canvas material posted on 16 to 23 November. Each question names its source. */
 (function(){
 var A="ACC111 Tutorial Ch4 (Canvas, 23 Nov)",B="ACC111 Tutorial Ch5 Buy (Canvas, 23 Nov)",F9="FIN101 Lecture 9 (Canvas, 16 Nov)",F10="FIN101 Lecture 10 (Canvas, 23 Nov)",M="MAT214 Lecture 9 exercise list (Canvas, 20 Nov)";
+var P="ACC111 Prepaid and Depreciation tutorial (Canvas, re-uploaded 23 Nov)",MD="MAT214 Determinants and Matrices practice file (Canvas, 23 Nov)",MG="MGT122 Tutorial 7 (Canvas, 23 Nov)";
 var bank={
 acc111:[
 {s:A,q:"Which order do the four closing entries follow in the Closing Entries tutorial?",o:["Revenues to Income Summary, expenses to Income Summary, Income Summary to Owner's Capital, Drawings to Owner's Capital","Drawings to Income Summary, revenues to Income Summary, expenses to Cash, Income Summary to Cash","Expenses to Owner's Capital, revenues to Drawings, Income Summary to Accounts Payable","Revenues to Cash, expenses to Accounts Payable, Drawings to Income Summary"],a:0,why:"Close revenues, close expenses, close the net income or loss to Owner's Capital, then close Drawings to Owner's Capital."},
@@ -16,7 +17,10 @@ acc111:[
 {s:B,q:"Diaz bought 8,000 of goods on terms 2/10, n/30 and returned 300 of damaged goods. How much cash does Diaz pay on June 19, within the discount period?",o:["7,700","7,546","8,000","7,846"],a:1,why:"Accounts Payable is 7,700 after the return. The 2% discount is 154, so the cash paid is 7,546."},
 {s:B,q:"When Diaz pays within the discount period, where is the 2% discount of 154 recorded?",o:["Sales Revenue","Merchandise Inventory (credit)","Interest Revenue","Cash (debit)"],a:1,why:"Under the perpetual system the discount reduces the cost of Merchandise Inventory."},
 {s:B,q:"Diaz pays the balance on June 25 instead of June 19, after the discount period. How much cash is paid?",o:["7,546","7,700","8,000","7,846"],a:1,why:"There is no discount after the 10 days, so Diaz pays the full 7,700."},
-{s:B,q:"Nandi Co. bought 25,000 of goods on terms 2/10, net/30, returned 2,800 and paid in full on April 15. How much cash does Nandi pay?",o:["22,200","21,756","24,500","23,456"],a:1,why:"The discount is taken on 25,000 − 2,800 = 22,200, so it is 444 and the cash is 22,200 − 444 = 21,756."}
+{s:B,q:"Nandi Co. bought 25,000 of goods on terms 2/10, net/30, returned 2,800 and paid in full on April 15. How much cash does Nandi pay?",o:["22,200","21,756","24,500","23,456"],a:1,why:"The discount is taken on 25,000 − 2,800 = 22,200, so it is 444 and the cash is 22,200 − 444 = 21,756."},
+{s:P,q:"On Sep 1 a company bought supplies for 9,000. On Dec 31, 6,000 of supplies are still on hand. What is the Dec 31 adjusting entry amount for Supplies Expense?",o:["3,000","6,000","9,000","15,000"],a:0,why:"Used = 9,000 − 6,000 = 3,000. Dr Supplies Expense / Cr Supplies."},
+{s:P,q:"On Oct 1 a company paid 18,000 for a 3-year insurance contract. What is the Insurance Expense in the Dec 31 adjusting entry?",o:["500","1,500","6,000","18,000"],a:1,why:"18,000 ÷ 36 months = 500 a month, times 3 months (Oct, Nov, Dec) = 1,500. Dr Insurance Expense / Cr Prepaid Insurance."},
+{s:P,q:"On Oct 1 a company bought equipment for 5,000, useful life 10 years, salvage value 200. What is the Dec 31 depreciation expense (straight line)?",o:["120","125","480","500"],a:0,why:"(5,000 − 200) ÷ 10 = 480 a year. For 3 months: 480 × 3/12 = 120. Dr Depreciation Expense / Cr Accumulated Depreciation."}
 ],
 fin101:[
 {s:F10,q:"The income elasticity of demand for a good is +1.06. What type of good is it?",o:["Inferior","Normal, necessary","Normal, luxury","Independent"],a:2,why:"A positive value above 1 means a normal, luxury good."},
@@ -38,7 +42,23 @@ mat214:[
 {s:M,q:"Find dy/dx for y = x³ − x.",o:["x² − 1","3x²","3x − 1","3x² − 1"],a:3,why:"The derivative of x³ is 3x² and the derivative of x is 1."},
 {s:M,q:"Find dy/dx for y = 5.",o:["5","0","1","x"],a:1,why:"The derivative of a constant is 0."},
 {s:M,q:"Find dy/dx for y = 4 ln x.",o:["4x","4/x","ln 4","1/x"],a:1,why:"The derivative of ln x is 1/x, so 4 ln x gives 4/x."},
-{s:M,q:"Find dy/dx for y = −8x⁴ + ln 2.",o:["−8x³","−32x³ + 1/2","−32x³","−32x³ + ln 2"],a:2,why:"ln 2 is a constant, so its derivative is 0. The derivative of −8x⁴ is −32x³."}
+{s:M,q:"Find dy/dx for y = −8x⁴ + ln 2.",o:["−8x³","−32x³ + 1/2","−32x³","−32x³ + ln 2"],a:2,why:"ln 2 is a constant, so its derivative is 0. The derivative of −8x⁴ is −32x³."},
+{s:MD,q:"Evaluate the 2×2 determinant with rows (7, 2) and (3, 4).",o:["22","34","−22","10"],a:0,why:"7×4 − 2×3 = 28 − 6 = 22."},
+{s:MD,q:"Evaluate the 2×2 determinant with rows (5, −2) and (3, −4).",o:["−26","−14","14","26"],a:1,why:"5×(−4) − (−2)×3 = −20 + 6 = −14."},
+{s:MD,q:"Find x if the determinant with rows (x, 3) and (2, 4) equals 10.",o:["1","2","4","7"],a:2,why:"4x − 6 = 10, so 4x = 16 and x = 4."},
+{s:MD,q:"Evaluate the 3×3 determinant with rows (1, 2, 3), (0, 1, 4), (5, 6, 0).",o:["1","−1","49","−49"],a:0,why:"1(0 − 24) − 2(0 − 20) + 3(0 − 5) = −24 + 40 − 15 = 1."},
+{s:MD,q:"Solve by Cramer's rule: 2x + y = 7 and x + 3y = 11. What is x?",o:["1","2","3","4"],a:1,why:"Δ = 2×3 − 1×1 = 5. Δx = 7×3 − 1×11 = 10. x = 10 ÷ 5 = 2 (and y = 3)."},
+{s:MD,q:"If every element of one column of a determinant is zero, what is its value?",o:["0","1","The sum of the other columns","It cannot be found"],a:0,why:"A row or column of zeros makes the determinant 0."}
+],
+mgt122:[
+{s:MG,q:"A manager trusts employees to take responsibility and work toward goals without constant supervision. Which approach is this?",o:["Theory X","Theory Y","Closed systems theory","Mechanistic structure"],a:1,why:"Theory Y assumes people can be responsible and self-motivated."},
+{s:MG,q:"Productivity rose whether the lighting got stronger or weaker. Which study is this?",o:["Contingency theory","Theory X","The Hawthorne studies","Open systems theory"],a:2,why:"The Hawthorne studies showed that attention and social factors affect output."},
+{s:MG,q:"A factory manager believes employees dislike work, so he uses strict rewards and punishments. Which theory explains this?",o:["Theory Y","Open systems theory","Theory X","Human relations movement"],a:2,why:"Theory X assumes people dislike work and need control."},
+{s:MG,q:"Machines, tools and workers turn wood into finished tables. Which stage of the open system is this?",o:["Input","Output","Conversion","Feedback"],a:2,why:"Inputs are transformed into outputs in the conversion stage."},
+{s:MG,q:"Marketing, finance and production working together get a better result than working separately. This idea is called:",o:["Theory X","Synergy","Mechanistic structure","Human relations movement"],a:1,why:"Synergy: combined effort gives more than separate effort."},
+{s:MG,q:"A company in a stable market rarely changes its products and wants tight control and lower cost. Which structure fits?",o:["Organic","Mechanistic","Open","Decentralized"],a:1,why:"Mechanistic structure: centralized authority, specific rules, close supervision."},
+{s:MG,q:"A technology company faces unexpected changes in customer taste, lets employees decide and encourages cooperation. Which structure is it?",o:["Mechanistic","Centralized","Organic","Closed"],a:2,why:"Organic structure: decentralized authority, flexible tasks, cooperation."},
+{s:MG,q:"A company succeeds in a stable market with strict procedures, but the same structure causes delays in a fast-changing market. What does this show?",o:["Theory X always fails","There is no single best way to organize","Closed systems beat open systems","Mechanistic structures suit every environment"],a:1,why:"This is the idea of contingency theory."}
 ]};
 SOKAR.courses.forEach(function(c){(bank[c.id]||[]).forEach(function(q){c.quiz.push(q)})});
 })();
