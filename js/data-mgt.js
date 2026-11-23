@@ -65,7 +65,9 @@ terms:[["Span of control","number of direct reports"],["Product team","reports o
 "Synergy: departments working together can produce more than working separately.",
 "Contingency theory: there is no single best way to organize. The structure depends on the environment.",
 "Mechanistic structure: centralized authority, specified rules, close supervision. It suits a stable market. Organic structure: decentralized authority, flexible tasks, cooperation. It suits a fast-changing market.",
-"The tutorial has 15 multiple choice questions, 7 definitions and a true/false part. This summary covers the concepts only. The true/false part was not read in full.",
+"The tutorial also has 7 definitions (Theory X, Theory Y, open systems, synergy, contingency, mechanistic, organic), 15 true/false statements, two cases and an essay comparing Theory X and Theory Y on assumptions, managerial approach, supervision and participation.",
+"True/false points from the answer key: Theory X says workers dislike work (true) and does not mean freedom without supervision (false). Theory Y supports decentralizing authority (true). Contingency theory says there is NO single best way (the statement saying there is one is false). Mechanistic structures suit stable environments (the statement saying unstable is false). Conversion, not output, is where inputs are transformed (false).",
+"Source note: in the Hawthorne case the question text says employees' awareness of being observed and the attention they received changed performance, but the tutorial's own answer says the reason was leadership style and social ties between workers. Both are shown as the tutorial gives them. Check with your instructor which wording to use in the exam.",
 "Summary written by Sokar from a text copy of the tutorial. Check the original on Canvas."],
 terms:[["Theory X","negative view of workers"],["Theory Y","positive view of workers"],["Synergy","combined effort beats separate effort"],["Contingency","no single best structure"]]}
 ],
