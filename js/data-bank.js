@@ -1,7 +1,7 @@
 /* Extra practice questions written from Canvas material posted on 16 to 23 November. Each question names its source. */
 (function(){
 var A="ACC111 Tutorial Ch4 (Canvas, 23 Nov)",B="ACC111 Tutorial Ch5 Buy (Canvas, 23 Nov)",F9="FIN101 Lecture 9 (Canvas, 16 Nov)",F10="FIN101 Lecture 10 (Canvas, 23 Nov)",M="MAT214 Lecture 9 exercise list (Canvas, 20 Nov)";
-var P="ACC111 Prepaid and Depreciation tutorial (Canvas, re-uploaded 23 Nov)",MD="MAT214 Determinants and Matrices practice file (Canvas, 23 Nov)",MG="MGT122 Tutorial 7 (Canvas, 23 Nov)";
+var P="ACC111 Prepaid and Depreciation tutorial (Canvas, re-uploaded 23 Nov)",MD="MAT214 Determinants and Matrices practice file (Canvas, 23 Nov)",MG="MGT122 Tutorial 7 (Canvas, 23 Nov)",ML="MAT214 Lab 7 worked solutions (Canvas, 23 Nov)";
 var T3="ACC111 Tutorial Ch3 adjusting entries (Canvas, 23 Nov)",C3="MGT122 Ch3 Planning slides (Canvas, 23 Nov)",C4="MGT122 Ch4 Organizing slides (Canvas, 23 Nov)";
 var bank={
 acc111:[
@@ -41,7 +41,11 @@ fin101:[
 {s:F9,q:"A 10% increase in the price of good X causes a 22% decrease in the quantity demanded. What is the price elasticity of demand?",o:["2.2","−0.45","−12","−2.2"],a:3,why:"−22% ÷ 10% = −2.2."},
 {s:F9,q:"The price elasticity of demand for chocolate is −2.0. The price falls by 10%. What happens to the quantity demanded?",o:["It falls by 20%","It rises by 20%","It rises by 10%","It rises by 5%"],a:1,why:"%ΔQ = −2.0 × (−10%) = +20%."},
 {s:F9,q:"Why does the lecture use the average price and the average quantity?",o:["The elasticity is different when the price rises and when it falls","The elasticity is the same whether the price rises or falls","The elasticity is always positive","The elasticity is always zero"],a:1,why:"The midpoint method gives the same value in both directions."},
-{s:F9,q:"If |PED| is greater than 1, demand is:",o:["Inelastic","Elastic","Unit elastic","Perfectly inelastic"],a:1,why:"|PED| > 1 means elastic demand. |PED| < 1 is inelastic and |PED| = 1 is unit elastic."}
+{s:F9,q:"If |PED| is greater than 1, demand is:",o:["Inelastic","Elastic","Unit elastic","Perfectly inelastic"],a:1,why:"|PED| > 1 means elastic demand. |PED| < 1 is inelastic and |PED| = 1 is unit elastic."},
+{s:F10,q:"A vertical supply curve means the price elasticity of supply is:",o:["0 (perfectly inelastic)","1 (unit elastic)","∞ (perfectly elastic)","always negative"],a:0,why:"A vertical curve means the quantity does not respond to price at all, so PES = 0."},
+{s:F10,q:"Supply is unit elastic (PES = 1) when the supply curve is:",o:["vertical","horizontal","a straight line through the origin","any steep curve"],a:2,why:"The lecture says unit elastic means a linear supply curve through the origin; the slope is irrelevant."},
+{s:F10,q:"Which goods does the lecture give as examples of inelastic supply?",o:["Agricultural goods that cannot be stored easily, like tomatoes and potatoes","Industrial goods that can be stored easily","Luxury goods","Goods with many substitutes"],a:0,why:"Storable industrial goods are the elastic example; perishable agricultural goods are the inelastic one."},
+{s:F10,q:"A horizontal supply curve means supply is:",o:["perfectly inelastic (PES = 0)","unit elastic (PES = 1)","perfectly elastic (PES = ∞)","inelastic (PES < 1)"],a:2,why:"The quantity drops to zero at the slightest price decrease, so PES = ∞."}
 ],
 mat214:[
 {s:M,q:"Find dy/dx for y = 9x².",o:["9x","18x","18x²","9x³"],a:1,why:"Power rule: 2 × 9x = 18x."},
@@ -64,7 +68,23 @@ mat214:[
 {s:MD,q:"Find A⁻¹ for A = rows (5, 2), (7, 3) by the adjoint method.",o:["rows (3, −2), (−7, 5)","rows (3, 2), (7, 5)","rows (−3, 2), (7, −5)","rows (5, −2), (−7, 3)"],a:0,why:"|A| = 15 − 14 = 1. adj A swaps the diagonal and changes the signs of the other two."},
 {s:MD,q:"Use the inverse to solve 2x + y = 8 and x + 3y = 9. What is (x, y)?",o:["(3, 2)","(2, 3)","(4, 0)","(1, 6)"],a:0,why:"|A| = 5. x = (24 − 9)/5 = 3 and y = (−8 + 18)/5 = 2."},
 {s:MD,q:"Revenue R = 8q, cost C = 3q + 5000. What is the break-even quantity?",o:["1,000 units","625 units","5,000 units","1,600 units"],a:0,why:"8q = 3q + 5000 gives q = 1000. Revenue is 8,000."},
-{s:MD,q:"Find the equilibrium (P, Q) for P = −Q + 15 and P = 2Q.",o:["P = 10, Q = 5","P = 5, Q = 10","P = 15, Q = 0","P = 7.5, Q = 3.75"],a:0,why:"2Q = −Q + 15 gives Q = 5 and P = 10."}
+{s:MD,q:"Find the equilibrium (P, Q) for P = −Q + 15 and P = 2Q.",o:["P = 10, Q = 5","P = 5, Q = 10","P = 15, Q = 0","P = 7.5, Q = 3.75"],a:0,why:"2Q = −Q + 15 gives Q = 5 and P = 10."},
+{s:MD,q:"In the six diagonals method, what is the first step?",o:["Rewrite columns 1 and 2 to the right of the determinant","Interchange the first two rows","Replace column 1 by the constants","Multiply every element by the same constant"],a:0,why:"Then you build the six diagonals and subtract the up diagonals from the down diagonals."},
+{s:MD,q:"A determinant has two identical rows. What is its value?",o:["0","1","the product of the diagonal","you cannot tell without expanding"],a:0,why:"Two identical rows (or columns) make the determinant 0."},
+{s:MD,q:"If a determinant equals 9, what is its value after interchanging the two rows?",o:["9","−9","0","81"],a:1,why:"Interchanging two rows changes the sign only."},
+{s:MD,q:"What is the value of the diagonal determinant with diagonal 4, −2, 5?",o:["40","−40","7","−7"],a:1,why:"A diagonal determinant is the product of the diagonal: 4 × (−2) × 5 = −40."},
+{s:MD,q:"In Cramer's rule for two equations, Δy is found by:",o:["replacing column 1 of Δ by the constants","replacing column 2 of Δ by the constants","interchanging the two rows of Δ","replacing both columns by the constants"],a:1,why:"Δx replaces column 1 and Δy replaces column 2 by the constants."},
+{s:MD,q:"For the matrix with rows (2, 5, 3) and (1, 6, 9), what is the element a₂₃?",o:["3","6","9","5"],a:2,why:"Row 2, column 3 holds 9."},
+{s:MD,q:"Find x so that the matrix with rows (2, x, 5), (3, 1, 4), (5, 4, 0) is symmetric.",o:["4","5","3","2"],a:2,why:"Symmetric means a(i,j) = a(j,i), so x = a(1,2) must equal a(2,1) = 3."},
+{s:MD,q:"Which is always true whenever the operations are defined?",o:["(AB)ᵀ = AᵀBᵀ","(A + B)ᵀ = Aᵀ + Bᵀ","AB = BA","(Aᵀ)ᵀ = Aᵀ"],a:1,why:"The correct rules are (AB)ᵀ = BᵀAᵀ and (Aᵀ)ᵀ = A, and AB ≠ BA in general."},
+{s:MD,q:"What is the inverse of the diagonal matrix with diagonal 2, −4, 5?",o:["diagonal −2, 4, −5","diagonal 0.5, −0.25, 0.2","diagonal 2, −4, 5","no inverse exists"],a:1,why:"Invert each diagonal entry: 1/2, −1/4, 1/5."},
+{s:MD,q:"Demand 4P + Q = 48 and supply 2P − Q = 12. Using Cramer's rule, the equilibrium price is:",o:["8","10","12","6"],a:1,why:"Δ = −6 and ΔP = −60, so P = −60 ÷ −6 = 10 and Q = 8."},
+{s:ML,q:"A vertical straight line parallel to the y-axis has a slope that is:",o:["strictly positive","undefined","equal to zero","strictly negative"],a:1,why:"Every point has the same x, so Δx = 0 and m = Δy ÷ 0 is undefined."},
+{s:ML,q:"In break-even analysis, the expression FC ÷ (p − v) is the:",o:["total variable cost","contribution margin per unit","marginal revenue","break-even quantity"],a:3,why:"The fixed cost divided by the contribution margin per unit gives the units needed to break even."},
+{s:ML,q:"For A with rows (2, 5) and (1, 3), the row-operations method [A | I] gives which inverse?",o:["rows (3, −5) and (−1, 2)","rows (2, −5) and (−1, 3)","rows (3, 5) and (1, 2)","rows (−3, 5) and (1, −2)"],a:0,why:"|A| = 1 and adj A swaps the diagonal and changes the other signs: (3 −5; −1 2). Check: A × A⁻¹ = I."},
+{s:ML,q:"Maximize Z = 3x + 4y with x + 2y ≤ 10 and 3x + 2y ≤ 18 in the first quadrant. The maximum Z* is:",o:["20","24","27","30"],a:1,why:"The corner points give the largest Z at the intersection (4, 3): Z = 3(4) + 4(3) = 24."},
+{s:ML,q:"The system 4x − y = 5 and 6x − 4y = 10, solved with the augmented matrix, gives:",o:["x = −1, y = 1","x = 1, y = −1","x = 2, y = 3","x = −2, y = 4"],a:1,why:"Check: 4(1) − (−1) = 5 and 6(1) − 4(−1) = 10."},
+{s:ML,q:"Quarterly sales follow Tₙ = an + b with T₂ = 11 and T₇ = 31. What are a and b?",o:["a = 3, b = 4","a = 4, b = 3","a = 5, b = 1","a = 2, b = 7"],a:1,why:"Subtracting the equations gives 5a = 20, so a = 4 and b = 3; Tₙ = 4n + 3."}
 ],
 mgt122:[
 {s:MG,q:"A manager trusts employees to take responsibility and work toward goals without constant supervision. Which approach is this?",o:["Theory X","Theory Y","Closed systems theory","Mechanistic structure"],a:1,why:"Theory Y assumes people can be responsible and self-motivated."},
