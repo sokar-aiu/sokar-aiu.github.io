@@ -2,6 +2,7 @@
 (function(){
 var A="ACC111 Tutorial Ch4 (Canvas، ٢٣ نوفمبر)",B="ACC111 Tutorial Ch5 Buy (Canvas، ٢٣ نوفمبر)",F9="FIN101 Lecture 9 (Canvas، ١٦ نوفمبر)",F10="FIN101 Lecture 10 (Canvas، ٢٣ نوفمبر)",M="تمارين MAT214 Lecture 9 (Canvas، ٢٠ نوفمبر)";
 var P="ACC111 Prepaid and Depreciation tutorial (Canvas، ٢٣ نوفمبر)",MD="ملف تدريب MAT214 Determinants and Matrices (Canvas، ٢٣ نوفمبر)",MG="MGT122 Tutorial 7 (Canvas، ٢٣ نوفمبر)";
+var T3="ACC111 Tutorial Ch3 قيود التسوية (Canvas، ٢٣ نوفمبر)",C3="سلايدات MGT122 Ch3 Planning (Canvas، ٢٣ نوفمبر)",C4="سلايدات MGT122 Ch4 Organizing (Canvas، ٢٣ نوفمبر)";
 var bank={
 acc111:[
 {s:A,q:"قيود القفل الأربعة في Tutorial الـ Closing Entries ماشية بأنهي ترتيب؟",o:["الإيرادات على Income Summary، المصروفات على Income Summary، Income Summary على Owner's Capital، Drawings على Owner's Capital","Drawings على Income Summary، الإيرادات على Income Summary، المصروفات على Cash، Income Summary على Cash","المصروفات على Owner's Capital، الإيرادات على Drawings، Income Summary على Accounts Payable","الإيرادات على Cash، المصروفات على Accounts Payable، Drawings على Income Summary"],a:0,why:"بتقفل الإيرادات، وبعدين المصروفات، وبعدين صافي الربح أو الخسارة على Owner's Capital، وبعدين Drawings على Owner's Capital."},
@@ -20,7 +21,13 @@ acc111:[
 {s:B,q:"شركة Nandi اشترت بضاعة بـ 25,000 بشروط 2/10, net/30، ورجّعت 2,800 ودفعت بالكامل يوم 15 أبريل. كام الكاش اللي Nandi دفعته؟",o:["22,200","21,756","24,500","23,456"],a:1,why:"الخصم بيتحسب على 25,000 − 2,800 = 22,200، فهو 444 والكاش 22,200 − 444 = 21,756."},
 {s:P,q:"في 1 سبتمبر شركة اشترت مستلزمات بـ 9,000. في 31 ديسمبر لسه 6,000 مستلزمات موجودة. كام مبلغ قيد التسوية لـ Supplies Expense؟",o:["3,000","6,000","9,000","15,000"],a:0,why:"المستخدم = 9,000 − 6,000 = 3,000. Dr Supplies Expense / Cr Supplies."},
 {s:P,q:"في 1 أكتوبر شركة دفعت 18,000 على عقد تأمين 3 سنين. كام Insurance Expense في قيد التسوية يوم 31 ديسمبر؟",o:["500","1,500","6,000","18,000"],a:1,why:"18,000 ÷ 36 شهر = 500 في الشهر، ضرب 3 شهور (أكتوبر ونوفمبر وديسمبر) = 1,500. Dr Insurance Expense / Cr Prepaid Insurance."},
-{s:P,q:"في 1 أكتوبر شركة اشترت معدات بـ 5,000، عمرها 10 سنين وقيمة الخردة 200. كام مصروف الإهلاك يوم 31 ديسمبر (القسط الثابت)؟",o:["120","125","480","500"],a:0,why:"(5,000 − 200) ÷ 10 = 480 في السنة. لـ 3 شهور: 480 × 3/12 = 120. Dr Depreciation Expense / Cr Accumulated Depreciation."}
+{s:P,q:"في 1 أكتوبر شركة اشترت معدات بـ 5,000، عمرها 10 سنين وقيمة الخردة 200. كام مصروف الإهلاك يوم 31 ديسمبر (القسط الثابت)؟",o:["120","125","480","500"],a:0,why:"(5,000 − 200) ÷ 10 = 480 في السنة. لـ 3 شهور: 480 × 3/12 = 120. Dr Depreciation Expense / Cr Accumulated Depreciation."},
+{s:T3,q:"دفع إيجار مقدم 480 يوم 1 أكتوبر لسنة كاملة. كام مصروف الإيجار في قيد التسوية يوم 31 ديسمبر؟",o:["120","480","360","40"],a:0,why:"480 × 3/12 = 120 لأكتوبر ونوفمبر وديسمبر. Dr Rent Expense / Cr Prepaid Rent."},
+{s:T3,q:"المرتبات الشهرية 500 والمتسجل للسنة 5,850. كام المرتبات غير المسجلة يوم 31 ديسمبر؟",o:["150","500","5,850","6,000"],a:0,why:"السنوي 500 × 12 = 6,000. 6,000 − 5,850 = 150. Dr Salaries Expense / Cr Salaries Payable."},
+{s:T3,q:"الإيراد المقدم كان 30,000 ومتبقي 2,000 آخر السنة. كام الإيراد اللي اتكسب؟",o:["28,000","30,000","2,000","32,000"],a:0,why:"30,000 − 2,000 = 28,000. Dr Unearned Revenue / Cr Service Revenue."},
+{s:T3,q:"ورقة دفع 60,000 اتصدرت يوم 1 يوليو بفايدة 12% في السنة. كام مصروف الفايدة يوم 31 ديسمبر؟",o:["3,600","7,200","5,400","1,800"],a:0,why:"60,000 × 12% × 6/12 = 3,600. Dr Interest Expense / Cr Interest Payable."},
+{s:T3,q:"استثمار 120,000 اتشترى يوم 1 سبتمبر وبيجيب 5% في السنة. كام الفايدة المستحقة يوم 31 ديسمبر؟",o:["2,000","6,000","500","600"],a:0,why:"120,000 × 5% × 4/12 = 2,000. Dr Interest Receivable / Cr Interest Revenue."},
+{s:T3,q:"تأمين مقدم 18,000 اتدفع 1 أغسطس لمدة 18 شهر. كام مصروف التأمين يوم 31 ديسمبر؟",o:["5,000","1,000","6,000","18,000"],a:0,why:"18,000 ÷ 18 = 1,000 في الشهر، ضرب 5 شهور (أغسطس لديسمبر) = 5,000."}
 ],
 fin101:[
 {s:F10,q:"Income elasticity of demand لسلعة طلعت +1.06. نوع السلعة إيه؟",o:["Inferior","Normal، ضرورية","Normal، كمالية (luxury)","مستقلة"],a:2,why:"قيمة موجبة أكبر من 1 معناها سلعة Normal كمالية."},
@@ -58,7 +65,14 @@ mgt122:[
 {s:MG,q:"إدارات التسويق والمالية والإنتاج لما تشتغل مع بعض بتدي نتيجة أحسن من لما تشتغل لوحدها. الفكرة دي اسمها:",o:["Theory X","Synergy","Mechanistic structure","Human relations movement"],a:1,why:"Synergy: الجهد المشترك بيدي أكتر من الجهد المنفصل."},
 {s:MG,q:"شركة في سوق مستقر ومنتجاتها نادرًا ما تتغير وعايزة رقابة محكمة وتكلفة أقل. أنهي هيكل يناسبها؟",o:["Organic","Mechanistic","Open","Decentralized"],a:1,why:"Mechanistic structure: سلطة مركزية وقواعد محددة وإشراف قريب."},
 {s:MG,q:"شركة تكنولوجيا بتواجه تغيرات مفاجئة في ذوق العملاء وبتسيب الموظفين يقرروا وبتشجع التعاون. أنهي هيكل ده؟",o:["Mechanistic","Centralized","Organic","Closed"],a:2,why:"Organic structure: سلطة لامركزية ومهام مرنة وتعاون."},
-{s:MG,q:"شركة نجحت في سوق مستقر بإجراءات صارمة، لكن نفس الهيكل بيسبب تأخير في سوق سريع التغير. ده بيوضح إيه؟",o:["Theory X بتفشل دايمًا","مفيش طريقة واحدة أحسن للتنظيم","Closed systems أحسن من open systems","Mechanistic structures بتناسب أي بيئة"],a:1,why:"دي فكرة Contingency theory."}
+{s:MG,q:"شركة نجحت في سوق مستقر بإجراءات صارمة، لكن نفس الهيكل بيسبب تأخير في سوق سريع التغير. ده بيوضح إيه؟",o:["Theory X بتفشل دايمًا","مفيش طريقة واحدة أحسن للتنظيم","Closed systems أحسن من open systems","Mechanistic structures بتناسب أي بيئة"],a:1,why:"دي فكرة Contingency theory."},
+{s:C3,q:"أنهي زوج من عناصر SWOT خارجي بالنسبة للمنظمة؟",o:["Strengths و Weaknesses","Opportunities و Threats","Strengths و Opportunities","Weaknesses و Threats"],a:1,why:"الـ Strengths والـ Weaknesses داخليين. الـ Opportunities والـ Threats خارجيين."},
+{s:C3,q:"شركة بتخدم شريحة ضيقة بعرض متخصص ومميز. دي أنهي استراتيجية على مستوى الشركة؟",o:["Low-cost","Differentiation","Focused low-cost","Focused differentiation"],a:3,why:"شريحة ضيقة وعرض مميز يعني focused differentiation."},
+{s:C3,q:"في Porter's Five Forces، تهديد البدائل (threat of substitutes) معناه:",o:["المنافسين جوه نفس الصناعة بس","منتجات من صناعات تانية بتلبي نفس احتياج العميل","الموردين بيرفعوا أسعارهم","شركات جديدة بتدخل الصناعة"],a:1,why:"البدائل بتلبي نفس الاحتياج حتى لو من خارج الصناعة."},
+{s:C3,q:"التخطيط التكتيكي (Tactical) بيعمله أساسًا:",o:["الإدارة العليا، من 3 لـ 5 سنين","الإدارة الوسطى، حوالي 1 لـ 3 سنين","مديرين الخط الأول، جداول يومية","العملاء"],a:1,why:"السلايدات بتحدد الإدارة الوسطى وأفق متوسط حوالي 1 لـ 3 سنين."},
+{s:C4,q:"أنهي هيكل فيه الموظفين بيتبعوا مدير فريق المنتج بس؟",o:["Matrix","Product team","Functional","Hybrid"],a:1,why:"في Product team الموظفين دايمًا في فريق متعدد الوظايف وبيتبعوا مديره بس. الـ Matrix فيه مديرين اتنين."},
+{s:C4,q:"مقارنة بالمنظمة Tall، المنظمة Flat فيها:",o:["نطاق أضيق ومستويات أكتر","نطاق أوسع ومستويات أقل وتواصل أسرع","تكلفة إدارية أعلى","قرارات أبطأ"],a:1,why:"Flat: مستويات قليلة ونطاق واسع وتواصل أسرع وتكلفة أقل."},
+{s:C4,q:"أنهي آلية تكامل هي فريق دايم من أعضاء من إدارات مختلفة؟",o:["Direct contact","Liaison role","Task force","Cross-functional team"],a:3,why:"الـ task force مؤقتة. الـ cross-functional team دايمة."}
 ]};
 SOKAR.courses.forEach(function(c){(bank[c.id]||[]).forEach(function(q){c.quiz.push(q)})});
 })();
