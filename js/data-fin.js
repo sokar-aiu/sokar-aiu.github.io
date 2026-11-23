@@ -57,7 +57,16 @@ terms:[["Price ceiling","a maximum legal price"],["Black market","illegal trade 
 "Lecture example: pizza from 20.50 to 19.50 and quantity from 9 to 11. The averages are 20 and 10. %ΔQ = 2/10 = 20%, %ΔP = −1/20 = −5%, so PED = −4.",
 "Exercise: the price rose 10% and the quantity fell 22%. PED = −22 ÷ 10 = −2.2.",
 "General rule: if the absolute value is greater than 1 demand is elastic, below 1 it is inelastic."],
-terms:[["Elasticity","responsiveness independent of units"],["PED","price elasticity of demand"]]}
+terms:[["Elasticity","responsiveness independent of units"],["PED","price elasticity of demand"]]},
+{t:"Lecture 10: Income, cross-price elasticity and elasticity of supply",pts:[
+"Income elasticity of demand (IED) = %ΔQ ÷ %ΔI, using averages like PED.",
+"IED positive and below 1: normal, necessary good. Positive and above 1: normal, luxury good. Negative: inferior good.",
+"Lecture example: income from 80 to 110 and quantity from 25,000 to 35,000 ounces gives IED = 1.06, so a normal luxury good.",
+"Cross-price elasticity (CPED) = %ΔQ of good A ÷ %ΔP of good B. Positive: substitutes. Negative: complements. Zero: independent.",
+"Lecture example: the bagel price rose from 0.45 to 0.65 and cream cheese fell from 12,000 to 10,000 ounces. CPED = −0.5, so complements.",
+"Elasticity of supply (PES) = %ΔQ supplied ÷ %ΔP. Its sign is always positive.",
+"Summary written by Sokar from a text copy of the slides. Check the slides on Canvas for the types of supply elasticity and the figures."],
+terms:[["IED","income elasticity of demand"],["CPED","cross-price elasticity of demand"],["PES","price elasticity of supply"]]}
 ],
 cards:[
 ["What does Scarcity mean?","Our wants are greater than the available resources, so we have to choose"],
