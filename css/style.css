@@ -96,3 +96,5 @@ main#app{min-height:100vh}
 .ttr{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--bd)}.ttt{flex:0 0 96px;font-weight:800;color:var(--pri);text-align:center;background:color-mix(in srgb,var(--pri) 12%,transparent);border-radius:10px;padding:4px 6px;font-size:.92rem}.ttd{display:flex;flex-direction:column;gap:2px;min-width:0}#tt h3{margin:16px 0 4px}
 .ttd .tag{align-self:flex-start;width:auto}
 .ttm{display:flex;flex-wrap:wrap;gap:2px 14px}
+
+:root{color-scheme:dark}[data-theme=light]{color-scheme:light}
