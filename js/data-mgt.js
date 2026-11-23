@@ -39,7 +39,7 @@ terms:[["Strategic plan","long-term, top management"],["Rolling plan","updated e
 "PESTEL scans the macro environment: Political, Economic, Social, Technological, Environmental, Legal. It does not replace industry analysis.",
 "Business-level strategies: low-cost, differentiation, focused low-cost, focused differentiation. Each has a risk, for example the premium of differentiation may exceed what customers will pay.",
 "Limits of planning: false certainty, rigidity, time and cost, over-centralization, goal displacement, environmental turbulence and the implementation gap.",
-"Summary written by Sokar from a text copy of the slides made by the watcher. Check the original slides on Canvas."],
+"Summary by Sokar from the lecture slides. Check the original slides on Canvas."],
 terms:[["SWOT","internal strengths and weaknesses, external opportunities and threats"],["Five Forces","industry structure tool"],["PESTEL","macro environment scan"]]},
 {t:"Ch4: Organizing",pts:[
 "Organizing is the second management function, and with it the manager builds the structure of work relationships. Organizational structure is the formal system of tasks and reporting lines.",
@@ -56,7 +56,7 @@ terms:[["Mechanistic","rigid structure"],["Organic","flexible structure"],["Matr
 "Span of control is the number of subordinates reporting directly to a manager. A tall organization has many levels and narrow spans, slower communication and higher overhead. A flat one has few levels and wide spans, faster communication and lower overhead, but managers may be overworked.",
 "Decentralization gives lower-level people the right to decide, which helps in fast-changing environments. Centralization keeps tight control and uniformity.",
 "Integrating mechanisms, from simpler to more complex: direct contact, liaison roles, task forces (temporary), cross-functional teams (permanent).",
-"Summary written by Sokar from a text copy of the slides made by the watcher. Check the original slides on Canvas."],
+"Summary by Sokar from the lecture slides. Check the original slides on Canvas."],
 terms:[["Span of control","number of direct reports"],["Product team","reports only to the product manager"],["Task force","temporary committee"]]},
 {t:"Tutorial 7: management theories and structures (Canvas, 23 Nov)",pts:[
 "Theory X: managers assume employees dislike work and need strict supervision, rewards and punishments. Theory Y: employees can be responsible, creative and self-motivated.",
@@ -68,7 +68,7 @@ terms:[["Span of control","number of direct reports"],["Product team","reports o
 "The tutorial also has 7 definitions (Theory X, Theory Y, open systems, synergy, contingency, mechanistic, organic), 15 true/false statements, two cases and an essay comparing Theory X and Theory Y on assumptions, managerial approach, supervision and participation.",
 "True/false points from the answer key: Theory X says workers dislike work (true) and does not mean freedom without supervision (false). Theory Y supports decentralizing authority (true). Contingency theory says there is NO single best way (the statement saying there is one is false). Mechanistic structures suit stable environments (the statement saying unstable is false). Conversion, not output, is where inputs are transformed (false).",
 "Source note: in the Hawthorne case the question text says employees' awareness of being observed and the attention they received changed performance, but the tutorial's own answer says the reason was leadership style and social ties between workers. Both are shown as the tutorial gives them. Check with your instructor which wording to use in the exam.",
-"Summary written by Sokar from a text copy of the tutorial. Check the original on Canvas."],
+"Summary by Sokar from the tutorial. Check the original on Canvas."],
 terms:[["Theory X","negative view of workers"],["Theory Y","positive view of workers"],["Synergy","combined effort beats separate effort"],["Contingency","no single best structure"]]}
 ],
 cards:[
