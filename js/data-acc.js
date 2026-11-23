@@ -68,7 +68,7 @@ terms:[["Perpetual","continuous inventory system"],["Periodic","inventory counte
 "Ch5 tutorial (Diaz, Perpetual): buy 8,000 on 2/10, n/30 (Dr Inventory / Cr AP). Return 300 (Dr AP / Cr Inventory). Pay within 10 days: AP 7,700, discount 154, cash 7,546, with the discount credited to Inventory. Paying after the discount period means the full 7,700.",
 "Ch5 tutorial (Nandi): purchase 25,000 less returns 2,800 leaves 22,200. A 2% discount is 444, so cash is 21,756.",
 "Freight on purchases FOB shipping point is added to Inventory.",
-"Summary written by Sokar from a text copy of the tutorial files. Check the original files on Canvas."],
+"Summary by Sokar from the tutorial files. Check the original files on Canvas."],
 terms:[["Post-closing trial balance","permanent accounts only"],["Purchase discount (Perpetual)","credited to Inventory"]]},
 {t:"Ch6: Inventories",pts:[
 "Inventory is a current asset on the balance sheet, and it enters the COGS calculation on the income statement.",
@@ -106,14 +106,14 @@ terms:[["Petty cash","fund for small expenses"],["NSF","check with insufficient 
 "Problem 2 (Freedom, Inc.): insurance 18,000 paid Aug 1 for 18 months gives 5,000 expense for Aug to Dec. Accrued salaries 24,000 − 22,000 = 2,000.",
 "Interest on the 120,000 investment (5%, bought Sep 1): 120,000 × 5% × 4/12 = 2,000 interest receivable. Supplies 30,000 − 5,000 = 25,000 expense. Depreciation (55,000 − 5,000) ÷ 10 = 5,000.",
 "Unearned revenue 10,000 to 2,000 gives 8,000 earned. Unbilled service 15,000 goes to Accounts Receivable. Note payable 60,000 at 12% for 6 months to Dec 31: 3,600 interest expense.",
-"Summary written by Sokar from a text copy made by the watcher of an image-based PDF. Check the original on Canvas."],
+"Summary by Sokar from the tutorial PDF. Check the original on Canvas."],
 terms:[["Accrued expense","incurred, not yet paid or recorded"],["Unearned revenue","cash received before the service"]]},
 {t:"Tutorial: Prepaid expenses and depreciation adjusting entries (Canvas, re-uploaded 23 Nov)",pts:[
 "Supplies: bought 9,000 on Sep 1, 6,000 on hand at Dec 31. Initial: Dr Supplies / Cr Cash 9,000. Adjusting: Dr Supplies Expense / Cr Supplies 3,000 (9,000 − 6,000).",
 "Prepaid insurance: 18,000 for a 3-year contract paid Oct 1. Initial: Dr Prepaid Insurance / Cr Cash 18,000. Adjusting at Dec 31: 18,000 ÷ 36 × 3 months = 1,500, Dr Insurance Expense / Cr Prepaid Insurance.",
 "Equipment: cost 5,000 bought Oct 1, life 10 years, salvage 200. Initial: Dr Equipment / Cr Cash 5,000. Adjusting at Dec 31: (5,000 − 200) ÷ 10 × 3/12 = 120, Dr Depreciation Expense / Cr Accumulated Depreciation.",
 "Pattern: record the initial transaction first, then the adjusting entry at the end of the fiscal year for the part used up.",
-"Summary written by Sokar from a text copy of the tutorial. Check the original on Canvas."],
+"Summary by Sokar from the tutorial. Check the original on Canvas."],
 terms:[["Prepaid expense","paid in advance, used up over time"],["Accumulated Depreciation","contra asset account"]]}
 ],
 cards:[
