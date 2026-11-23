@@ -98,7 +98,14 @@ terms:[["AFDA","مخصص الديون المشكوك فيها"],["Net Realizable
 "استخدام البنك بيقلل الكاش في الإيد ويعمل سجل مزدوج ورقابة داخلية أحسن.",
 "Bank Statement فيه Debit memos (رسوم بنكية، شيكات مرتدة NSF) و Credit memos (تحصيل أوراق قبض، فوائد).",
 "Bank Reconciliation بتطابق الرصيد حسب الدفاتر (Balance per Book) مع رصيد البنك (Balance per Bank) لأن الفروق بتيجي من معاملات لسه ما اتسجلتش عند طرف أو أخطاء."],
-terms:[["Petty cash","صندوق المصروفات النثرية"],["NSF","شيك بدون رصيد"],["Bank reconciliation","تسوية البنك"]]}
+terms:[["Petty cash","صندوق المصروفات النثرية"],["NSF","شيك بدون رصيد"],["Bank reconciliation","تسوية البنك"]]},
+{t:"Tutorial: قيود التسوية للمصروفات المدفوعة مقدمًا والإهلاك (Canvas، ٢٣ نوفمبر)",pts:[
+"Supplies: اشتريت بـ 9,000 يوم 1 سبتمبر، والمتبقي 6,000 يوم 31 ديسمبر. القيد الأول: Dr Supplies / Cr Cash 9,000. قيد التسوية: Dr Supplies Expense / Cr Supplies 3,000 (9,000 − 6,000).",
+"Prepaid insurance: 18,000 لعقد 3 سنين اتدفعت 1 أكتوبر. القيد الأول: Dr Prepaid Insurance / Cr Cash 18,000. التسوية في 31 ديسمبر: 18,000 ÷ 36 × 3 شهور = 1,500، Dr Insurance Expense / Cr Prepaid Insurance.",
+"المعدات: تكلفة 5,000 اتشترت 1 أكتوبر، العمر 10 سنين والخردة 200. القيد الأول: Dr Equipment / Cr Cash 5,000. التسوية في 31 ديسمبر: (5,000 − 200) ÷ 10 × 3/12 = 120، Dr Depreciation Expense / Cr Accumulated Depreciation.",
+"النمط: سجل القيد الأول الأول، وبعدين قيد التسوية في آخر السنة المالية للجزء اللي اتستهلك.",
+"الملخص كتبته Sokar من نسخة نصية للتيوتوريال. راجع الأصل على Canvas."],
+terms:[["Prepaid expense","مدفوع مقدمًا وبيتستهلك مع الوقت"],["Accumulated Depreciation","حساب مقابل للأصل"]]}
 ],
 cards:[
 ["معادلة المحاسبة الأساسية؟","Assets = Liabilities + Owner's Equity"],
