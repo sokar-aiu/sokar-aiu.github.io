@@ -4,60 +4,6 @@ PRODID:-//Sokar Hub//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Sokar Hub - Cohort deadlines
 BEGIN:VEVENT
-UID:acc-q2-c@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
-DTSTART:20261123T121500Z
-DTEND:20261123T131500Z
-SUMMARY:ACC111 Quiz 2: Group C (committees)
-DESCRIPTION:Monday 23 November at 2:15 PM\, per the quiz committee announc
- ement on Canvas. The split of names into committees is in an official PDF
-  inside Canvas. Open it from the course page.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: Group C (committees)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: Group C (committees)
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: Group C (committees)
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:acc-q2-a@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
-DTSTART:20261124T090000Z
-DTEND:20261124T100000Z
-SUMMARY:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the list)
-DESCRIPTION:Tuesday 24 November in two sessions: 11:00 and 11:35 AM\, per 
- the Canvas announcement. The calendar alert is set to the earliest sessio
- n\, 11:00\, only\, and your session may be 11:35. Check the official dist
- ribution file inside Canvas and edit the time on your side.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the lis
- t)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the lis
- t)
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the lis
- t)
-TRIGGER:-PT15M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
 DTSTAMP:20261122T224038Z
 DTSTART:20261126T123000Z
@@ -98,5 +44,62 @@ ACTION:DISPLAY
 DESCRIPTION:Research Project submission (individual\, 20 marks)
 TRIGGER:-P3D
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-online-q-nov26@sokar-aiu.github.io
+DTSTAMP:20261123T165800Z
+DTSTART:20261126T200000Z
+DTEND:20261126T201500Z
+SUMMARY:ACC111 online quiz: Closing and Unearned Revenue
+DESCRIPTION:Thursday 26 November\, 10:00 to 10:15 PM Cairo time. 12 multip
+ le-choice questions\, 4 marks. Personal link by email\, per the Canvas an
+ nouncement.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 online quiz: Closing and Unearned Revenue
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 online quiz: Closing and Unearned Revenue
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 online quiz: Closing and Unearned Revenue
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lan-email-nov27@sokar-aiu.github.io
+DTSTAMP:20261123T165800Z
+DTSTART:20261127T214900Z
+DTEND:20261127T215900Z
+SUMMARY:LAN022 Professional Email Writing assignment due (15 marks)
+DESCRIPTION:Due Friday 27 November\, 11:59 PM\, per Canvas.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Professional Email Writing assignment due (15 marks)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Professional Email Writing assignment due (15 marks)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Professional Email Writing assignment due (15 marks)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:withdraw-dec10@sokar-aiu.github.io
+DTSTAMP:20261123T165800Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Last day to withdraw from a course (university-wide)
+DESCRIPTION:10 December\, end of week 12\, per the university announcement
+ . No time given.
 END:VEVENT
 END:VCALENDAR
