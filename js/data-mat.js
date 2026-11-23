@@ -49,7 +49,7 @@ terms:[["Matrix","a rectangular array of numbers"],["Order","rows × columns"],[
 "Matrices: order is rows × columns. Add or subtract only matrices of the same order. AB needs columns of A = rows of B, and AB is not equal to BA in general. (A + B)ᵀ = Aᵀ + Bᵀ is always true.",
 "Inverse by the adjoint method: A⁻¹ = adj A ÷ |A|, and it exists only if |A| ≠ 0. For (5 2; 7 3), |A| = 1 and A⁻¹ = (3 −2; −7 5). For (2 4; 1 2), |A| = 0 so there is no inverse.",
 "Applications in the file: solve 2x + y = 8, x + 3y = 9 by the inverse, giving x = 3, y = 2. Break-even with R = 8q and C = 3q + 5000 gives q = 1000 units and revenue 8,000. Equilibrium P = −Q + 15 and P = 2Q gives P = 10, Q = 5.",
-"Lab 7 (72 pages) is now fully summarized. Its complete multiplication example A (3×2) × B (2×3) = 3×3 gives the rows (14, 12, 12), (17, 6, 1) and (20, 0, −10).",
+"Lab 7 (72 pages) is covered here as a topic-and-result overview. Its complete multiplication example A (3×2) × B (2×3) = 3×3 gives the rows (14, 12, 12), (17, 6, 1) and (20, 0, −10).",
 "Properties to remember: (AB)C = A(BC), A(B + C) = AB + AC, (A + B)ᵀ = Aᵀ + Bᵀ, and (AB)ᵀ = BᵀAᵀ (the order flips).",
 "The inverse two ways. Row operations: build [A | I] and reduce to [I | A⁻¹]; for A = (2 5; 1 3) the result is A⁻¹ = (3 −5; −1 2). Co-factor for 2×2: |A| = ad − cb, adj A swaps the diagonal and changes the signs of the other two, then A⁻¹ = adj A ÷ |A|. For a diagonal matrix, invert each diagonal entry. In Excel: select an empty block and type =MINVERSE(range).",
 "Solving a system two ways: reduce the augmented matrix [A | C] until the left side is I, or compute X = A⁻¹ × C. Both give x = 1, y = −1 for 4x − y = 5 and 6x − 4y = 10, and x = −2, y = 4 for 4x + 3y = 4 and x + y = 2.",
