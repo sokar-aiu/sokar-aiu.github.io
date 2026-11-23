@@ -65,7 +65,9 @@ terms:[["Elasticity","responsiveness independent of units"],["PED","price elasti
 "Cross-price elasticity (CPED) = %ΔQ of good A ÷ %ΔP of good B. Positive: substitutes. Negative: complements. Zero: independent.",
 "Lecture example: the bagel price rose from 0.45 to 0.65 and cream cheese fell from 12,000 to 10,000 ounces. CPED = −0.5, so complements.",
 "Elasticity of supply (PES) = %ΔQ supplied ÷ %ΔP. Its sign is always positive.",
-"Summary written by Sokar from a text copy of the slides. Check the slides on Canvas for the types of supply elasticity and the figures."],
+"The five types of supply elasticity: perfectly inelastic PES = 0 (vertical supply curve), inelastic PES < 1 (steep curve, like agricultural goods that cannot be stored easily, such as tomatoes and potatoes), unit elastic PES = 1 (a straight line through the origin, whatever the slope), elastic PES > 1 (flat curve, like industrial goods that can be stored easily), and perfectly elastic PES = ∞ (horizontal curve, quantity drops to zero at the slightest price decrease).",
+"Lecture example: the price of corn rises from 8.00 to 10.00 per bushel and the quantity supplied rises from 20,000 to 24,000 bushels. PES = 0.81, which is below 1, so supply is inelastic.",
+"Summary written by Sokar from a text copy of the slides. The slide figures are not redrawn here."],
 terms:[["IED","income elasticity of demand"],["CPED","cross-price elasticity of demand"],["PES","price elasticity of supply"]]}
 ],
 cards:[
