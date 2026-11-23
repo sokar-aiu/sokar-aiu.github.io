@@ -11,7 +11,7 @@ lectures:[
 "Microeconomics بتدرس قرارات الأفراد والشركات والأسواق. Macroeconomics بتدرس الاقتصاد ككل.",
 "اقتصاد السوق بينظّم نفسه بالأسعار، والحكومة بتتدخل لما يحصل Market failure."],
 terms:[["Scarcity","الندرة"],["Opportunity cost","تكلفة الفرصة البديلة"],["Factors of production","عناصر الإنتاج"]]},
-{t:"Lecture 2 — Opportunity Cost و Production Possibility Frontier",pts:[
+{t:"Lecture 2 — Opportunity Cost + Production Possibility Frontier",pts:[
 "Opportunity cost هو المنفعة اللي بنتنازل عنها لما نستخدم الموارد بطريقة بدل التانية.",
 "PPF بيوضّح توليفات سلعتين ممكن ننتجهم لما كل الموارد مستخدمة بالكامل وبكفاءة.",
 "افتراضات PPF: موارد محدودة وثابتة، سلعتين بس، ومستوى تكنولوجيا معين.",
