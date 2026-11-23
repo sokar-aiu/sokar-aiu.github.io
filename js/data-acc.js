@@ -98,7 +98,14 @@ terms:[["AFDA","allowance for doubtful accounts"],["Net Realizable Value","amoun
 "Using a bank reduces cash on hand and creates a double record and better internal control.",
 "A Bank Statement has Debit memos (bank fees, bounced NSF checks) and Credit memos (collection of notes receivable, interest).",
 "A Bank Reconciliation matches the Balance per Book with the Balance per Bank, because the differences come from transactions not yet recorded by one side, or from errors."],
-terms:[["Petty cash","fund for small expenses"],["NSF","check with insufficient funds"],["Bank reconciliation","matching book and bank balances"]]}
+terms:[["Petty cash","fund for small expenses"],["NSF","check with insufficient funds"],["Bank reconciliation","matching book and bank balances"]]},
+{t:"Tutorial: Prepaid expenses and depreciation adjusting entries (Canvas, re-uploaded 23 Nov)",pts:[
+"Supplies: bought 9,000 on Sep 1, 6,000 on hand at Dec 31. Initial: Dr Supplies / Cr Cash 9,000. Adjusting: Dr Supplies Expense / Cr Supplies 3,000 (9,000 − 6,000).",
+"Prepaid insurance: 18,000 for a 3-year contract paid Oct 1. Initial: Dr Prepaid Insurance / Cr Cash 18,000. Adjusting at Dec 31: 18,000 ÷ 36 × 3 months = 1,500, Dr Insurance Expense / Cr Prepaid Insurance.",
+"Equipment: cost 5,000 bought Oct 1, life 10 years, salvage 200. Initial: Dr Equipment / Cr Cash 5,000. Adjusting at Dec 31: (5,000 − 200) ÷ 10 × 3/12 = 120, Dr Depreciation Expense / Cr Accumulated Depreciation.",
+"Pattern: record the initial transaction first, then the adjusting entry at the end of the fiscal year for the part used up.",
+"Summary written by Sokar from a text copy of the tutorial. Check the original on Canvas."],
+terms:[["Prepaid expense","paid in advance, used up over time"],["Accumulated Depreciation","contra asset account"]]}
 ],
 cards:[
 ["The basic accounting equation?","Assets = Liabilities + Owner's Equity"],
