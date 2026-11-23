@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sokar Hub//AR
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Sokar Hub - مواعيد الدفعة
+BEGIN:VEVENT
+UID:acc-q2-c@sokar-aiu.github.io
+DTSTAMP:20261122T224038Z
+DTSTART:20261123T121500Z
+DTEND:20261123T131500Z
+SUMMARY:ACC111 Quiz 2: المجموعة C (لجان)
+DESCRIPTION:الاثنين ٢٣ نوفمبر الساعة ٢:١٥ العص
+ ر حسب إعلان لجان الكويز على Canvas. توزيع ال
+ أسماء على اللجان في ملف PDF رسمي جوه Canvas، 
+ افتحه من صفحة المادة.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-q2-a@sokar-aiu.github.io
+DTSTAMP:20261122T224038Z
+DTSTART:20261124T090000Z
+DTEND:20261124T100000Z
+SUMMARY:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١١:
+ ٣٥ (راجع الكشف)
+DESCRIPTION:الثلاثاء ٢٤ نوفمبر على جلستين: ١١:
+ ٠٠ و١١:٣٥ صباحًا حسب إعلان Canvas. التنبيه م
+ تظبط على أبكر جلسة ١١:٠٠ بس، وجلستك ممكن 
+ تكون ١١:٣٥. راجع ملف التوزيع الرسمي جوه Ca
+ nvas وعدّل الموعد عندك.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
+ ١:٣٥ (راجع الكشف)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
+ ١:٣٥ (راجع الكشف)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
+ ١:٣٥ (راجع الكشف)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
+DTSTAMP:20261122T224038Z
+DTSTART:20261126T123000Z
+DTEND:20261126T133000Z
+SUMMARY:MGT122 Tutorial أونلاين على Teams
+DESCRIPTION:الأسبوع ده بس. الساعة ٢:٣٠ العصر بت
+ وقيت القاهرة.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 Tutorial أونلاين على Teams
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 Tutorial أونلاين على Teams
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 Tutorial أونلاين على Teams
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lib116-project-2026-11-30@sokar-aiu.github.io
+DTSTAMP:20261122T224038Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:تسليم Research Project (فردي، ٢٠ درجة)
+DESCRIPTION:آخر يوم للرفع: الاثنين ٣٠ نوفمبر ع
+ ن طريق Microsoft Forms. الساعة مش محددة في الإعل
+ ان.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:تسليم Research Project (فردي، ٢٠ درجة)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:تسليم Research Project (فردي، ٢٠ درجة)
+TRIGGER:-P3D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
