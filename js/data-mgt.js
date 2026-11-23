@@ -31,6 +31,16 @@ terms:[["Scientific management","Taylor's approach"],["Hawthorne effect","attent
 "The planning process has 7 steps: Mission, assess the current situation, set objectives, formulate strategies, supporting plans and resource allocation, implementation and communication, follow-up and adjustment. It is not linear.",
 "Vision: what we want to become. Mission: why we exist and whom we serve."],
 terms:[["Strategic plan","long-term, top management"],["Rolling plan","updated every year"],["Mission","why the organization exists"]]},
+{t:"Ch3 (continued): analysis tools, strategies and limits of planning (Canvas slides, 23 Nov)",pts:[
+"Planning does three tasks: it finds the current position, sets the future vision, and decides how to allocate resources.",
+"Objectives should be SMART: specific, measurable, achievable, relevant and time-bound. Example levels from the slides: vision, mission, strategic goal, objective.",
+"SWOT: Strengths and Weaknesses are internal. Opportunities and Threats are external. SWOT is a tool, not a strategy: managers must turn it into choices.",
+"Porter's Five Forces assesses industry structure: rivalry among competitors, threat of new entrants, bargaining power of buyers, bargaining power of suppliers, and threat of substitutes.",
+"PESTEL scans the macro environment: Political, Economic, Social, Technological, Environmental, Legal. It does not replace industry analysis.",
+"Business-level strategies: low-cost, differentiation, focused low-cost, focused differentiation. Each has a risk, for example the premium of differentiation may exceed what customers will pay.",
+"Limits of planning: false certainty, rigidity, time and cost, over-centralization, goal displacement, environmental turbulence and the implementation gap.",
+"Summary written by Sokar from a text copy of the slides made by the watcher. Check the original slides on Canvas."],
+terms:[["SWOT","internal strengths and weaknesses, external opportunities and threats"],["Five Forces","industry structure tool"],["PESTEL","macro environment scan"]]},
 {t:"Ch4: Organizing",pts:[
 "Organizing is the second management function, and with it the manager builds the structure of work relationships. Organizational structure is the formal system of tasks and reporting lines.",
 "4 Contingency factors determine the structure: Environment, Strategy, Technology, Human Resources.",
@@ -39,6 +49,15 @@ terms:[["Strategic plan","long-term, top management"],["Rolling plan","updated e
 "Divisional structure: grouping by product, region or market. Advantages: clear responsibility and faster decisions. Disadvantages: higher cost, duplicated activities and competition between divisions.",
 "Matrix structure: the employee reports to two managers (function and product)."],
 terms:[["Mechanistic","rigid structure"],["Organic","flexible structure"],["Matrix","two reporting lines"]]},
+{t:"Ch4 (continued): structures, span of control and integration (Canvas slides, 23 Nov)",pts:[
+"The four contingency factors: environment, strategy, technology and human resources. Stable conditions favor formal, rule-based control. Dynamic conditions favor autonomy and decentralization. Skilled professionals resist micromanagement.",
+"Functional structure groups people with similar skills. Divisional structure (product, geographic or market) creates self-contained units, with clearer responsibility but higher cost and duplication.",
+"Matrix: employees report to two bosses (functional and product or project manager). Product team: employees are permanently in a cross-functional team and report ONLY to the product team manager, which removes the two-boss conflict. Hybrid: a large organization uses several structures at once.",
+"Span of control is the number of subordinates reporting directly to a manager. A tall organization has many levels and narrow spans, slower communication and higher overhead. A flat one has few levels and wide spans, faster communication and lower overhead, but managers may be overworked.",
+"Decentralization gives lower-level people the right to decide, which helps in fast-changing environments. Centralization keeps tight control and uniformity.",
+"Integrating mechanisms, from simpler to more complex: direct contact, liaison roles, task forces (temporary), cross-functional teams (permanent).",
+"Summary written by Sokar from a text copy of the slides made by the watcher. Check the original slides on Canvas."],
+terms:[["Span of control","number of direct reports"],["Product team","reports only to the product manager"],["Task force","temporary committee"]]},
 {t:"Tutorial 7: management theories and structures (Canvas, 23 Nov)",pts:[
 "Theory X: managers assume employees dislike work and need strict supervision, rewards and punishments. Theory Y: employees can be responsible, creative and self-motivated.",
 "Hawthorne studies: productivity rose whether the lighting got stronger or weaker, which pointed to social and attention effects.",
