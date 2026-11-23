@@ -11,7 +11,7 @@ lectures:[
 "مهارات المدير: Conceptual و Human و Technical.",
 "تحديات المدير في بيئة المنافسة العالمية: ميزة تنافسية، أخلاقيات، تنوع العاملين، تكنولوجيا، إدارة الأزمات."],
 terms:[["Efficiency","الكفاءة"],["Effectiveness","الفعالية"],["Top manager","الإدارة العليا"]]},
-{t:"Ch2 — تاريخ الإدارة (Classical و Behavioral و Contemporary)",pts:[
+{t:"Ch2 — تاريخ الإدارة (Classical + Behavioral + Contemporary)",pts:[
 "قبل الثورة الصناعية: ورش صغيرة وعمال مهرة وإنتاج يدوي (Craft production). بعدها: مصانع كبيرة وعمال غير مهرة وإنتاج كمي (Mass production).",
 "Adam Smith لاحظ إن المصانع اللي العمال فيها بيتخصصوا في مهمة أو اتنين أداؤها أعلى بكتير (Specialization).",
 "الاتجاه الكلاسيكي: Scientific Management (Frederick Taylor) و Administrative Theory (Henri Fayol).",
