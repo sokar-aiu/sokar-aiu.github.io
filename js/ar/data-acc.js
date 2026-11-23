@@ -60,6 +60,16 @@ terms:[["Closing Entries","قيود الإقفال"],["Income Summary","ملخص
 "البيع Perpetual بيحتاج قيدين: (1) Dr Cash أو AR / Cr Sales بسعر البيع. (2) Dr Cost of Goods Sold / Cr Inventory بالتكلفة.",
 "Periodic: الشراء في حساب Purchases، والشحن في Freight-in، والمرتجعات في Purchase Returns and Allowances، والخصم في Purchase Discounts، والجرد الفعلي هو اللي يحدد تكلفة البضاعة المباعة."],
 terms:[["Perpetual","نظام الجرد المستمر"],["Periodic","نظام الجرد الدوري"],["COGS","تكلفة البضاعة المباعة"],["FOB","شرط تسليم البضاعة"]]},
+{t:"Tutorial Ch4 و Ch5 — مسائل محلولة (Canvas، ٢٣ نوفمبر)",pts:[
+"تيوتوريال Ch4 (Hercules): الإيرادات 42,400 + 6,100 = 48,500 والمصروفات 37,100 + 10,100 + 2,700 = 49,900، يعني صافي خسارة 1,400.",
+"ترتيب القفل: الإيرادات على Income Summary، المصروفات على Income Summary، Income Summary على Owner's Capital، وبعدين Drawings على Owner's Capital. الـ Capital 31,700 − 1,400 − 12,000 = 18,300.",
+"الـ post-closing trial balance فيه الحسابات الدائمة بس. المدين 10,900 + 6,200 + 10,600 = 27,700 ومساوي للدائن.",
+"تيوتوريال Ch4 (Pampered Pet): المستلزمات المشتراة 1,300 والمتبقي 1,000 يعني مصروف مستلزمات 300. إجمالي المصروفات 6,300 مقابل إيراد 4,900 يعني صافي خسارة 1,400.",
+"تيوتوريال Ch5 (Diaz، Perpetual): شراء 8,000 بشروط 2/10, n/30 (Dr Inventory / Cr AP). مرتجع 300 (Dr AP / Cr Inventory). الدفع خلال 10 أيام: AP 7,700 والخصم 154 والكاش 7,546، والخصم بيتدائن على Inventory. لو الدفع بعد فترة الخصم تدفع 7,700 كاملة.",
+"تيوتوريال Ch5 (Nandi): مشتريات 25,000 ناقص مرتجعات 2,800 يساوي 22,200. خصم 2% يطلع 444 فالكاش 21,756.",
+"شحن المشتريات FOB shipping point بيتضاف على Inventory.",
+"الملخص كتبته Sokar من نسخة نصية لملفات التيوتوريال. راجع الملفات الأصلية على Canvas."],
+terms:[["Post-closing trial balance","الحسابات الدائمة بس"],["خصم الشراء (Perpetual)","بيتدائن على Inventory"]]},
 {t:"Ch6 — Inventories (المخزون)",pts:[
 "Inventory أصل متداول في الميزانية، وبيدخل في حساب COGS في قائمة الدخل.",
 "شركة خدمات: مفيش مخزون. تجارية: نوع واحد. صناعية: ٣ أنواع (Raw Materials, Work in Process, Finished Goods).",
