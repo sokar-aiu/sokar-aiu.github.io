@@ -19,7 +19,7 @@ terms:[["Assets","الأصول"],["Liabilities","الالتزامات"],["Owner'
 "Owner's equity آخر المدة = أول المدة + Net Income − Drawings.",
 "مثال من المحاضرة: إيراد خدمات 3,500 ومصروفات 1,700 (إيجار 800 + رواتب 500 + مرافق 300 + تليفون 100) يبقى صافي الربح 1,800."],
 terms:[["Net Income","صافي الربح"],["Drawings","مسحوبات المالك"],["Balance Sheet","قائمة المركز المالي"]]},
-{t:"Ch2 — عملية التسجيل: Journal و Ledger و Trial Balance",pts:[
+{t:"Ch2 — عملية التسجيل: Journal + Ledger + Trial Balance",pts:[
 "الحساب شكله حرف T: الجانب الشمال Debit والجانب اليمين Credit.",
 "Debit و Credit مجرد مكان التسجيل، مش معناهم زيادة أو نقصان. الزيادة والنقصان بيعتمدوا على طبيعة الحساب.",
 "طبيعة مدينة (بتزيد بالـ Debit): Assets و Expenses و Drawings. طبيعة دائنة (بتزيد بالـ Credit): Liabilities و Revenues و Owner's Equity.",
@@ -50,7 +50,7 @@ terms:[["Accrual basis","أساس الاستحقاق"],["Prepaid Expense","مص�
 "Correcting Entries بتتعمل لما نكتشف غلطة وقبل الإقفال: نلغي القيد الغلط ونسجل الصح.",
 "مثال: Capital أول أبريل 22,000، إيرادات 50,000، مصروفات 32,000، مسحوبات 10,000. صافي الربح 18,000، فرأس المال الأخير = 22,000 + 18,000 − 10,000 = 30,000."],
 terms:[["Closing Entries","قيود الإقفال"],["Income Summary","ملخص الدخل"],["Temporary accounts","حسابات مؤقتة"]]},
-{t:"Ch5 — Merchandising: Perpetual و Periodic",pts:[
+{t:"Ch5 — Merchandising: Perpetual + Periodic",pts:[
 "شركة تجارية بتشتري وتبيع بضاعة، ودورة تشغيلها أطول من شركة الخدمات.",
 "Perpetual: بنتتبع تكلفة كل شراء وبيع، ورصيد Inventory معروف في أي لحظة.",
 "شراء Perpetual: Dr Inventory / Cr Cash أو Accounts Payable. الشحن في الشراء (Freight-in) بيتضاف على Inventory.",
@@ -60,7 +60,7 @@ terms:[["Closing Entries","قيود الإقفال"],["Income Summary","ملخص
 "البيع Perpetual بيحتاج قيدين: (1) Dr Cash أو AR / Cr Sales بسعر البيع. (2) Dr Cost of Goods Sold / Cr Inventory بالتكلفة.",
 "Periodic: الشراء في حساب Purchases، والشحن في Freight-in، والمرتجعات في Purchase Returns and Allowances، والخصم في Purchase Discounts، والجرد الفعلي هو اللي يحدد تكلفة البضاعة المباعة."],
 terms:[["Perpetual","نظام الجرد المستمر"],["Periodic","نظام الجرد الدوري"],["COGS","تكلفة البضاعة المباعة"],["FOB","شرط تسليم البضاعة"]]},
-{t:"Tutorial Ch4 و Ch5 — مسائل محلولة (Canvas، ٢٣ نوفمبر)",pts:[
+{t:"Tutorial Ch4 + Ch5 — مسائل محلولة (Canvas، ٢٣ نوفمبر)",pts:[
 "تيوتوريال Ch4 (Hercules): الإيرادات 42,400 + 6,100 = 48,500 والمصروفات 37,100 + 10,100 + 2,700 = 49,900، يعني صافي خسارة 1,400.",
 "ترتيب القفل: الإيرادات على Income Summary، المصروفات على Income Summary، Income Summary على Owner's Capital، وبعدين Drawings على Owner's Capital. الـ Capital 31,700 − 1,400 − 12,000 = 18,300.",
 "الـ post-closing trial balance فيه الحسابات الدائمة بس. المدين 10,900 + 6,200 + 10,600 = 27,700 ومساوي للدائن.",
@@ -91,7 +91,7 @@ terms:[["FIFO","الوارد أولًا يصرف أولًا"],["LIFO","الوا�
 "مثال: مبيعات 152,000 (نقدي 50,000)، مرتجعات 1,500، خصم 500، نسبة 4%. Net credit sales = 100,000 فالمصروف 4,000. AR = 353,000 + 100,000 − 3,000 = 450,000. AFDA = 5,000 − 3,000 + 4,000 = 6,000. الصافي 444,000.",
 "الطريقة التانية: Percentage of Accounts Receivable (Balance Sheet approach)."],
 terms:[["AFDA","مخصص الديون المشكوك فيها"],["Net Realizable Value","صافي القيمة التحصيلية"],["Bad Debts Expense","مصروف الديون المعدومة"]]},
-{t:"Ch8 — Cash: Petty Cash و Bank Reconciliation",pts:[
+{t:"Ch8 — Cash: Petty Cash + Bank Reconciliation",pts:[
 "Petty Cash Fund لدفع مبالغ صغيرة: ٣ خطوات (إنشاء، صرف، تعويض).",
 "إنشاء صندوق 100: Dr Petty Cash 100 / Cr Cash 100.",
 "تعويض الصندوق: المصروفات من الإيصالات بتتسجل والـ Cr بيكون Cash بقيمة التعويض. مثال: بريد 44 + شحن 38 + متنوعة 5 = 87.",
