@@ -60,6 +60,16 @@ terms:[["Closing Entries","reset temporary accounts"],["Income Summary","tempora
 "A Perpetual sale needs two entries: (1) Dr Cash or AR / Cr Sales at the selling price. (2) Dr Cost of Goods Sold / Cr Inventory at cost.",
 "Periodic: purchases go to the Purchases account, freight to Freight-in, returns to Purchase Returns and Allowances, discounts to Purchase Discounts, and the physical count decides the cost of goods sold."],
 terms:[["Perpetual","continuous inventory system"],["Periodic","inventory counted at period end"],["COGS","cost of goods sold"],["FOB","delivery terms"]]},
+{t:"Tutorial Ch4 and Ch5: worked problems (Canvas, 23 Nov)",pts:[
+"Ch4 tutorial (Hercules): revenues 42,400 + 6,100 = 48,500 and expenses 37,100 + 10,100 + 2,700 = 49,900, so there is a net loss of 1,400.",
+"Closing order: revenues to Income Summary, expenses to Income Summary, Income Summary to Owner's Capital, then Drawings to Owner's Capital. Capital 31,700 − 1,400 − 12,000 = 18,300.",
+"The post-closing trial balance has only permanent accounts. Debits 10,900 + 6,200 + 10,600 = 27,700, equal to the credits.",
+"Ch4 tutorial (Pampered Pet): supplies bought 1,300 with 1,000 left means supplies expense 300. Total expenses 6,300 against revenue 4,900 is a net loss of 1,400.",
+"Ch5 tutorial (Diaz, Perpetual): buy 8,000 on 2/10, n/30 (Dr Inventory / Cr AP). Return 300 (Dr AP / Cr Inventory). Pay within 10 days: AP 7,700, discount 154, cash 7,546, with the discount credited to Inventory. Paying after the discount period means the full 7,700.",
+"Ch5 tutorial (Nandi): purchase 25,000 less returns 2,800 leaves 22,200. A 2% discount is 444, so cash is 21,756.",
+"Freight on purchases FOB shipping point is added to Inventory.",
+"Summary written by Sokar from a text copy of the tutorial files. Check the original files on Canvas."],
+terms:[["Post-closing trial balance","permanent accounts only"],["Purchase discount (Perpetual)","credited to Inventory"]]},
 {t:"Ch6: Inventories",pts:[
 "Inventory is a current asset on the balance sheet, and it enters the COGS calculation on the income statement.",
 "A service company: no inventory. A merchandising company: one type. A manufacturing company: 3 types (Raw Materials, Work in Process, Finished Goods).",
