@@ -64,7 +64,7 @@ terms:[["APA","نظام توثيق المراجع"],["Table of contents","قائ
 "Specific and clear: محدد وواضح الأهداف والمنهج.",
 "Researchable: ممكن تتنفذ فعلًا بالمتاح."],
 terms:[["Research topic","موضوع البحث"],["Peer-reviewed","محكّم علميًا"]]},
-{t:"Lecture 4 — Jobs و Articles (a / an / the)",pts:[
+{t:"Lecture 4 — Jobs + Articles (a / an / the)",pts:[
 "محتوى المحاضرة: Jobs، Reading، Indefinite Articles، Definite Articles، Tricky Notes (حالات خاصة مع the)، Listening & Speaking.",
 "مراجعة سريعة: Good morning من ٦ ص لـ ١٢ ظ، Good afternoon بعد ١٢ ظ، Good evening بالليل، Good night للوداع قبل النوم. وأمثلة على Subject pronouns و Possessive.",
 "نص قراءة «A Day in the Community»: ناس بتشتغل في مجتمع واحد (خباز، ممرضة، مدرسة، مهندس، رسام) مع True/False و Multiple choice وتدريب على a / an / the وأسئلة قصيرة.",
@@ -128,7 +128,7 @@ lectures:[
 "sunrise شروق، sunset غروب، midday / noon الساعة ١٢ الضهر، midnight الساعة ١٢ بالليل.",
 "Hello مناسبة للرسمي وغير الرسمي. قواعد الكلاس: احترام، حضور في الميعاد، شغل بإيدك من غير غش، وذكر المصادر."],
 terms:[["Greeting","تحية"],["Personal pronoun","ضمير شخصي (I, you, he...)"],["WH- question","سؤال بأداة استفهام (What, Where...)"]]},
-{t:"Lecture 3 — Nationalities و Possessive Determiners و Verb to be",pts:[
+{t:"Lecture 3 — Nationalities + Possessive Determiners + Verb to be",pts:[
 "محتوى المحاضرة: Possessive Determiners، تكوين الأسئلة، الدول والجنسيات، Listening & Speaking، النفي مع Verb to be، استخدامات to be، النطق، و Demonstratives (this / that).",
 "Possessive Determiners بتيجي قبل الاسم وبتدل على الملكية: I → my، we → our، you → your، they → their، he → his، she → her، it → its. its بدون apostrophe معناها ملكية (This is its collar). it's معناها it is.",
 "أسئلة الـ WH بتطلب معلومة محددة. التركيب: WH-word + Verb to be + Subject + (Complement)? مثال: Where are you from? / What is your nationality?",
@@ -139,34 +139,34 @@ terms:[["Greeting","تحية"],["Personal pronoun","ضمير شخصي (I, you, h
 "Demonstratives: this للمفرد القريب، that للمفرد البعيد، these للجمع القريب، those للجمع البعيد.",
 "أنشطة في السلايدات: نص قراءة عن طلبة من دول مختلفة مع T/F وأسئلة WH، تدريب على الحوار بأسئلة WH، ومهمة كتابة ٦ لـ ٨ جمل عن زمايل من دول مختلفة (present simple مع countries و nationalities و to be وكلمات ربط زي and و but و because). والسلايد الأخير بيحيلك لـ assignment على Canvas."],
 terms:[["Possessive determiner","صفة ملكية (my, your...)"],["Nationality","الجنسية"],["Demonstrative","اسم إشارة (this, that, these, those)"]]},
-{t:"Lecture 4 — Jobs و Articles (a / an / the)",pts:[
+{t:"Lecture 4 — Jobs + Articles (a / an / the)",pts:[
 "المحاضرة عن الوظائف (baker، nurse، teacher، engineer، artist) وقراءة نص عن ناس بتشتغل في مجتمع واحد.",
 "Indefinite article a / an مع الاسم المفرد المعدود: a قبل صوت ساكن، an قبل صوت متحرك.",
 "Definite article the مع حاجة محددة ومعروفة للمتكلم والسامع، وفيها حالات خاصة مع الأسماء الجغرافية.",
 "فيه مراجعة سريعة في أول المحاضرة: التحيات وأوقات اليوم (Good morning / afternoon / evening / night) والضمائر."],
 terms:[["Indefinite article","أداة نكرة (a / an)"],["Definite article","أداة تعريف (the)"]]},
-{t:"Lecture 5 — Food و Present Simple",pts:[
+{t:"Lecture 5 — Food + Present Simple",pts:[
 "تصنيفات الأكل: vegetables، fruit، meat، fish & seafood، dairy products، cereal، legumes، nuts، fast food، sweets.",
 "Present Simple للعادات والروتين والحقايق العامة والجداول: I wake up at 7 AM. The sun rises in the east.",
 "الإثبات: مع he / she / it بنزود s على الفعل (He works). مع باقي الضمائر الفعل زي ما هو (I work).",
 "النفي: don't مع I / you / we / they، و doesn't مع he / she / it + الفعل من غير تغيير (She doesn't work).",
 "المحاضرة فيها كمان Irregular Plurals وقراءة وفهم."],
 terms:[["Present simple","المضارع البسيط"],["Irregular plural","جمع شاذ"]]},
-{t:"Lecture 6 — Family و Directions و Possessives",pts:[
+{t:"Lecture 6 — Family + Directions + Possessives",pts:[
 "Nuclear family: الأب والأم والأولاد في بيت واحد. Extended family: بتضيف الأجداد والأعمام والأخوال والخالات والأقارب.",
 "In-laws: أقارب الجواز زي mother-in-law و brother-in-law. Cousin ابن العم أو الخال. Nephew ابن الأخ أو الأخت. Niece بنت الأخ أو الأخت.",
 "اتجاهات: Go straight on، Turn left / right، Take the first corner on the left، Go past the hospital، Cross the street، take the third exit at the roundabout.",
 "Possessive adjectives قبل الاسم (his hat) ومبتتغيرش مع المفرد والجمع.",
 "Possessive nouns: مفرد + 's (the boy's hat). جمع بينتهي بـ s نزود apostrophe بس (the teachers' room)."],
 terms:[["Nuclear family","أسرة نواة"],["In-laws","أقارب المصاهرة"],["Possessive noun","اسم ملكية (James's bag)"]]},
-{t:"Lecture 7 — In a Hotel (Polite requests و Emails)",pts:[
+{t:"Lecture 7 — In a Hotel (Polite requests + Emails)",pts:[
 "مفردات الفندق: lobby، room service، mini-bar، toiletries، sauna، valet، receptionist، bellboy / porter، housekeeping.",
 "Verbs: book a room، check in / check out. نقول stay at a hotel.",
 "طلب مؤدب بدل الطلب المباشر: Could you + verb؟ و Would you mind + verb-ing؟ و I wonder if you could + verb. للرسمي المكتوب: I would be grateful if you could...",
 "نضيف Excuse me أو Pardon me في أول السؤال عشان يبقى مؤدب.",
 "Formal email: Subject واضح، تحية بلقب واسم العيلة (Dear Professor Lee)، جملة افتتاحية بالغرض، فقرات منظمة، وخاتمة مؤدبة (Best regards). من غير اختصارات. Informal email: ودّي وبسيط (Hi John)."],
 terms:[["Polite request","طلب مؤدب"],["Formal email","إيميل رسمي"],["Check in","تسجيل الدخول للفندق"]]},
-{t:"Lecture 8 — House Chores و Daily Routine و Past Simple",pts:[
+{t:"Lecture 8 — House Chores + Daily Routine + Past Simple",pts:[
 "نص قراءة «Who Does the Chores at Home?»: Fatima بتطبخ وبتجهز الغدا للأولاد، Omar بيغسل الهدوم وبيكنس بالمكنسة يوم السبت، Leila بتأكل القطة وبتحضّر السفرة، Sami بيرمي الزبالة ويساعد في الأطباق، والأسرة بتنضف مع بعض يوم الأحد.",
 "أسئلة على النص: مفردات (laundry = الغسيل، chores = مهام البيت)، True/False، تدريب على Present Simple (cooks، vacuums، have، takes، cleans)، وأسئلة WH بإجابات كاملة.",
 "مفردات الشغل: wash the dishes، sweep / mop the floor، vacuum the carpet، wash the windows، dust the furniture، wash / iron the clothes، make the bed، cook the meals، set the table، take out the trash، water the plants.",
