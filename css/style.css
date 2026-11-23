@@ -106,3 +106,6 @@ main#app{min-height:100vh}
 .btn.pri,.logo,.float,.tab.on,.bottom a.on{background:var(--pri)!important;color:var(--on)!important}
 .b{opacity:.12}.b1,.b3{background:var(--pri)}.b2{background:#fff}[data-theme=light] .b{opacity:.08}[data-theme=light] .b2{background:#c2410c}
 #intro{background:radial-gradient(circle at 50% 40%,#2a1200,#000 70%)}
+
+.gc>*{min-width:0}.gn{overflow-wrap:anywhere;font-size:.9rem}.gg{white-space:nowrap}
+@media(max-width:560px){.gc{grid-template-columns:84px 64px 1fr;row-gap:6px;padding-bottom:8px;border-bottom:1px solid var(--bd)}.gn{grid-column:2/-1}.gg{text-align:start}}
