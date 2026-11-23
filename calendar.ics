@@ -1,31 +1,30 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Sokar Hub//AR
+PRODID:-//Sokar Hub//EN
 CALSCALE:GREGORIAN
-X-WR-CALNAME:Sokar Hub - مواعيد الدفعة
+X-WR-CALNAME:Sokar Hub - Cohort deadlines
 BEGIN:VEVENT
 UID:acc-q2-c@sokar-aiu.github.io
 DTSTAMP:20261122T224038Z
 DTSTART:20261123T121500Z
 DTEND:20261123T131500Z
-SUMMARY:ACC111 Quiz 2: المجموعة C (لجان)
-DESCRIPTION:الاثنين ٢٣ نوفمبر الساعة ٢:١٥ العص
- ر حسب إعلان لجان الكويز على Canvas. توزيع ال
- أسماء على اللجان في ملف PDF رسمي جوه Canvas، 
- افتحه من صفحة المادة.
+SUMMARY:ACC111 Quiz 2: Group C (committees)
+DESCRIPTION:Monday 23 November at 2:15 PM\, per the quiz committee announc
+ ement on Canvas. The split of names into committees is in an official PDF
+  inside Canvas. Open it from the course page.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
+DESCRIPTION:ACC111 Quiz 2: Group C (committees)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
+DESCRIPTION:ACC111 Quiz 2: Group C (committees)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة C (لجان)
+DESCRIPTION:ACC111 Quiz 2: Group C (committees)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -34,29 +33,27 @@ UID:acc-q2-a@sokar-aiu.github.io
 DTSTAMP:20261122T224038Z
 DTSTART:20261124T090000Z
 DTEND:20261124T100000Z
-SUMMARY:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١١:
- ٣٥ (راجع الكشف)
-DESCRIPTION:الثلاثاء ٢٤ نوفمبر على جلستين: ١١:
- ٠٠ و١١:٣٥ صباحًا حسب إعلان Canvas. التنبيه م
- تظبط على أبكر جلسة ١١:٠٠ بس، وجلستك ممكن 
- تكون ١١:٣٥. راجع ملف التوزيع الرسمي جوه Ca
- nvas وعدّل الموعد عندك.
+SUMMARY:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the list)
+DESCRIPTION:Tuesday 24 November in two sessions: 11:00 and 11:35 AM\, per 
+ the Canvas announcement. The calendar alert is set to the earliest sessio
+ n\, 11:00\, only\, and your session may be 11:35. Check the official dist
+ ribution file inside Canvas and edit the time on your side.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
- ١:٣٥ (راجع الكشف)
+DESCRIPTION:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the lis
+ t)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
- ١:٣٥ (راجع الكشف)
+DESCRIPTION:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the lis
+ t)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:ACC111 Quiz 2: المجموعة A، جلسة ١١:٠٠ أو ١
- ١:٣٥ (راجع الكشف)
+DESCRIPTION:ACC111 Quiz 2: Group A\, 11:00 or 11:35 session (check the lis
+ t)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -65,22 +62,21 @@ UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
 DTSTAMP:20261122T224038Z
 DTSTART:20261126T123000Z
 DTEND:20261126T133000Z
-SUMMARY:MGT122 Tutorial أونلاين على Teams
-DESCRIPTION:الأسبوع ده بس. الساعة ٢:٣٠ العصر بت
- وقيت القاهرة.
+SUMMARY:MGT122 online Tutorial on Teams
+DESCRIPTION:This week only. 2:30 PM Cairo time.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:MGT122 Tutorial أونلاين على Teams
+DESCRIPTION:MGT122 online Tutorial on Teams
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:MGT122 Tutorial أونلاين على Teams
+DESCRIPTION:MGT122 online Tutorial on Teams
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:MGT122 Tutorial أونلاين على Teams
+DESCRIPTION:MGT122 online Tutorial on Teams
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
@@ -89,18 +85,17 @@ UID:lib116-project-2026-11-30@sokar-aiu.github.io
 DTSTAMP:20261122T224038Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-SUMMARY:تسليم Research Project (فردي، ٢٠ درجة)
-DESCRIPTION:آخر يوم للرفع: الاثنين ٣٠ نوفمبر ع
- ن طريق Microsoft Forms. الساعة مش محددة في الإعل
- ان.
+SUMMARY:Research Project submission (individual\, 20 marks)
+DESCRIPTION:Last day to submit: Monday 30 November\, through Microsoft For
+ ms. The announcement does not give a time.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:تسليم Research Project (فردي، ٢٠ درجة)
+DESCRIPTION:Research Project submission (individual\, 20 marks)
 TRIGGER:-PT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:تسليم Research Project (فردي، ٢٠ درجة)
+DESCRIPTION:Research Project submission (individual\, 20 marks)
 TRIGGER:-P3D
 END:VALARM
 END:VEVENT
