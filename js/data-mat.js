@@ -41,6 +41,17 @@ terms:[["Objective function","the function to maximize or minimize"],["Feasible 
 "After that: matrix operations and solving a system of equations with matrices (Matrix inverse).",
 "General review: addition and subtraction need two matrices of the same order, and multiplication needs the number of columns of the first = the number of rows of the second."],
 terms:[["Matrix","a rectangular array of numbers"],["Order","rows × columns"],["Inverse","the matrix that undoes another"]]},
+{t:"Determinants and Matrices practice file and Lab 7 (Canvas, 23 Nov)",pts:[
+"The practice file has 40 questions: Part A determinants (1 to 19) and Part B matrices (20 to 40), with an answer key. A determinant is a square array between two vertical bars. A 2 × 3 array cannot be a determinant.",
+"2 × 2: ad − bc. For rows (7, 2) and (3, 4) it is 22. For 3 × 3, rewrite columns 1 and 2 on the right and subtract the up diagonals from the down diagonals. Example: rows (1, 2, 3), (0, 1, 4), (5, 6, 0) gives 40 − 39 = 1.",
+"Properties used in the file: a row or column of zeros gives 0, two identical rows give 0, swapping two rows changes the sign, the transpose has the same value, and a diagonal determinant is the product of the diagonal.",
+"Cramer's rule: x = Δx ÷ Δ, where Δx replaces column 1 by the constants and Δy replaces column 2. Example: 2x + y = 7 and x + 3y = 11 gives x = 2, y = 3.",
+"Matrices: order is rows × columns. Add or subtract only matrices of the same order. AB needs columns of A = rows of B, and AB is not equal to BA in general. (A + B)ᵀ = Aᵀ + Bᵀ is always true.",
+"Inverse by the adjoint method: A⁻¹ = adj A ÷ |A|, and it exists only if |A| ≠ 0. For (5 2; 7 3), |A| = 1 and A⁻¹ = (3 −2; −7 5). For (2 4; 1 2), |A| = 0 so there is no inverse.",
+"Applications in the file: solve 2x + y = 8, x + 3y = 9 by the inverse, giving x = 3, y = 2. Break-even with R = 8q and C = 3q + 5000 gives q = 1000 units and revenue 8,000. Equilibrium P = −Q + 15 and P = 2Q gives P = 10, Q = 5.",
+"Lab 7 (72 pages): I read the opening part only (matrix basics, special matrices, transpose and symmetric, operation rules) and the homework heading. The rest of the worked solutions is NOT summarized.",
+"Summary written by Sokar from text copies made by the watcher. The answers above match the file's answer key, and I rechecked the arithmetic myself."],
+terms:[["Δ","determinant"],["adj A","adjoint (cofactor) matrix"],["A⁻¹","inverse, exists only if |A| ≠ 0"]]},
 {t:"Lectures 8–9: Differentiation",pts:[
 "The Derivative measures how sensitive a function's value is to a change in the input. At a point it is the slope of the tangent to the curve, and it is called the instantaneous rate of change.",
 "The process of finding the derivative is called Differentiation. The reverse is called Antidifferentiation (integration).",
