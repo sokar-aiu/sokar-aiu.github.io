@@ -67,7 +67,7 @@ terms:[["Elasticity","responsiveness independent of units"],["PED","price elasti
 "Elasticity of supply (PES) = %ΔQ supplied ÷ %ΔP. Its sign is always positive.",
 "The five types of supply elasticity: perfectly inelastic PES = 0 (vertical supply curve), inelastic PES < 1 (steep curve, like agricultural goods that cannot be stored easily, such as tomatoes and potatoes), unit elastic PES = 1 (a straight line through the origin, whatever the slope), elastic PES > 1 (flat curve, like industrial goods that can be stored easily), and perfectly elastic PES = ∞ (horizontal curve, quantity drops to zero at the slightest price decrease).",
 "Lecture example: the price of corn rises from 8.00 to 10.00 per bushel and the quantity supplied rises from 20,000 to 24,000 bushels. PES = 0.81, which is below 1, so supply is inelastic.",
-"Summary written by Sokar from a text copy of the slides. The slide figures are not redrawn here."],
+"Summary by Sokar from the lecture slides. The slide figures are not redrawn here."],
 terms:[["IED","income elasticity of demand"],["CPED","cross-price elasticity of demand"],["PES","price elasticity of supply"]]}
 ],
 cards:[
