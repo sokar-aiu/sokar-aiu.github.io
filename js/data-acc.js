@@ -99,6 +99,15 @@ terms:[["AFDA","allowance for doubtful accounts"],["Net Realizable Value","amoun
 "A Bank Statement has Debit memos (bank fees, bounced NSF checks) and Credit memos (collection of notes receivable, interest).",
 "A Bank Reconciliation matches the Balance per Book with the Balance per Bank, because the differences come from transactions not yet recorded by one side, or from errors."],
 terms:[["Petty cash","fund for small expenses"],["NSF","check with insufficient funds"],["Bank reconciliation","matching book and bank balances"]]},
+{t:"Tutorial Ch3: adjusting entries, two worked problems (Canvas, 23 Nov)",pts:[
+"Problem 1 (Vasser Co.): prepaid rent 480 paid Oct 1 for the whole year gives rent expense 480 × 3/12 = 120. Building depreciation: 40,000 × 5% = 2,000.",
+"Supplies: 620 before adjusting and 120 left gives supplies expense 500. Unbilled consulting service 750: Dr Accounts Receivable / Cr Consulting Revenue.",
+"Salaries: 500 a month × 12 = 6,000 less 5,850 recorded gives 150 unrecorded, Dr Salaries Expense / Cr Salaries Payable. Unearned revenue 30,000 down to 2,000 means 28,000 earned: Dr Unearned Revenue / Cr Service Revenue.",
+"Problem 2 (Freedom, Inc.): insurance 18,000 paid Aug 1 for 18 months gives 5,000 expense for Aug to Dec. Accrued salaries 24,000 − 22,000 = 2,000.",
+"Interest on the 120,000 investment (5%, bought Sep 1): 120,000 × 5% × 4/12 = 2,000 interest receivable. Supplies 30,000 − 5,000 = 25,000 expense. Depreciation (55,000 − 5,000) ÷ 10 = 5,000.",
+"Unearned revenue 10,000 to 2,000 gives 8,000 earned. Unbilled service 15,000 goes to Accounts Receivable. Note payable 60,000 at 12% for 6 months to Dec 31: 3,600 interest expense.",
+"Summary written by Sokar from a text copy made by the watcher of an image-based PDF. Check the original on Canvas."],
+terms:[["Accrued expense","incurred, not yet paid or recorded"],["Unearned revenue","cash received before the service"]]},
 {t:"Tutorial: Prepaid expenses and depreciation adjusting entries (Canvas, re-uploaded 23 Nov)",pts:[
 "Supplies: bought 9,000 on Sep 1, 6,000 on hand at Dec 31. Initial: Dr Supplies / Cr Cash 9,000. Adjusting: Dr Supplies Expense / Cr Supplies 3,000 (9,000 − 6,000).",
 "Prepaid insurance: 18,000 for a 3-year contract paid Oct 1. Initial: Dr Prepaid Insurance / Cr Cash 18,000. Adjusting at Dec 31: 18,000 ÷ 36 × 3 months = 1,500, Dr Insurance Expense / Cr Prepaid Insurance.",
