@@ -38,7 +38,17 @@ terms:[["Strategic plan","long-term, top management"],["Rolling plan","updated e
 "Functional structure: grouping by function (production, marketing, finance). Advantages: economies of scale and learning from colleagues in the same specialty. Disadvantage: communication barriers (Functional silos).",
 "Divisional structure: grouping by product, region or market. Advantages: clear responsibility and faster decisions. Disadvantages: higher cost, duplicated activities and competition between divisions.",
 "Matrix structure: the employee reports to two managers (function and product)."],
-terms:[["Mechanistic","rigid structure"],["Organic","flexible structure"],["Matrix","two reporting lines"]]}
+terms:[["Mechanistic","rigid structure"],["Organic","flexible structure"],["Matrix","two reporting lines"]]},
+{t:"Tutorial 7: management theories and structures (Canvas, 23 Nov)",pts:[
+"Theory X: managers assume employees dislike work and need strict supervision, rewards and punishments. Theory Y: employees can be responsible, creative and self-motivated.",
+"Hawthorne studies: productivity rose whether the lighting got stronger or weaker, which pointed to social and attention effects.",
+"Open systems theory: an organization takes inputs (materials, money, workers) from outside, transforms them (conversion) into outputs, and feedback (like sales money) keeps it going. A closed system does not interact with its environment.",
+"Synergy: departments working together can produce more than working separately.",
+"Contingency theory: there is no single best way to organize. The structure depends on the environment.",
+"Mechanistic structure: centralized authority, specified rules, close supervision. It suits a stable market. Organic structure: decentralized authority, flexible tasks, cooperation. It suits a fast-changing market.",
+"The tutorial has 15 multiple choice questions, 7 definitions and a true/false part. This summary covers the concepts only. The true/false part was not read in full.",
+"Summary written by Sokar from a text copy of the tutorial. Check the original on Canvas."],
+terms:[["Theory X","negative view of workers"],["Theory Y","positive view of workers"],["Synergy","combined effort beats separate effort"],["Contingency","no single best structure"]]}
 ],
 cards:[
 ["The four management functions?","Planning, Organizing, Leading and Controlling"],
