@@ -35,7 +35,7 @@ function courses(){return'<h1 class="pg reveal">المواد</h1><p class="mut r
 function course(id){var c=C[id];if(!c)return'<p>المادة مش موجودة.</p>';var p=prog(c);
  var lec=c.lectures.map(function(l,i){var k=c.id+":"+i;return'<details class="lec card reveal" id="L'+i+'"><summary><span class="num">'+ar(i+1)+'</span><span class="lt">'+esc(l.t)+'</span><label class="chk" onclick="event.stopPropagation()"><input type="checkbox" data-k="'+k+'"'+(done[k]?" checked":"")+'><span>خلّصتها</span></label></summary><ul class="pts">'+l.pts.map(function(x){return"<li>"+esc(x)+"</li>"}).join("")+'</ul><div class="terms">'+l.terms.map(function(t){return'<span class="term"><b dir="ltr">'+esc(t[0])+'</b> '+esc(t[1])+'</span>'}).join("")+'</div></details>'}).join("");
  return'<a class="back" href="#/courses">← المواد</a><section class="chead" style="--h:'+c.hue+'"><span class="cc-ic big">'+icon(c.icon)+'</span><div><b class="code">'+c.code+'</b><h1>'+esc(c.ar)+'</h1><p class="mut" dir="auto">'+esc(c.name)+' · '+esc(c.who)+'</p></div>'+ring(p.p,c.hue)+'</section>'+
- '<div class="info card reveal"><p><b>المصدر:</b> '+esc(c.src)+'</p><p><b>التقييم:</b> '+esc(c.grading)+'</p></div>'+
+ '<div class="info card reveal"><p><b>المصدر:</b> '+bd(c.src)+'</p><p><b>التقييم:</b> '+bd(c.grading)+'</p></div>'+
  '<div class="tabs" role="tablist"><button class="tab on" data-t="sum">الملخصات</button><button class="tab" data-t="cards">كارتات</button><button class="tab" data-t="quiz">كويز</button></div>'+
  '<div id="t-sum" class="pane">'+lec+'</div><div id="t-cards" class="pane" hidden></div><div id="t-quiz" class="pane" hidden></div>'}
 /* flashcards */
@@ -91,6 +91,7 @@ function pomo(){var T=25*60,left=T,run=null,mode="focus",L=2*Math.PI*52,pr=$("#p
  $("#prs").onclick=function(){stop();mode="focus";T=left=25*60;$("#pm").textContent="جلسة تركيز ٢٥ دقيقة";draw()};$("#pbr").onclick=function(){stop();mode="break";T=left=5*60;$("#pm").textContent="راحة ٥ دقايق";draw()};draw()}
 function gpa(){var P=$$(".gp"),H=$$(".gh");function calc(){var q=0,h=0;P.forEach(function(p,i){var v=p.value.trim(),n=Number(v),g=$("#gg"+i);if(v===""||!isFinite(n)||n<0||n>100){g.textContent="—";return}var s=S.scale.filter(function(r){return n>=r[0]})[0];g.textContent=s[1]+" ("+s[2].toFixed(1)+")";q+=s[2]*Number(H[i].value);h+=Number(H[i].value)});$("#gpa").textContent=h?(q/h).toFixed(2):"—"}P.concat(H).forEach(function(e){e.addEventListener("input",calc)})}
 function clk(){var e=$("#clk");if(!e)return;function t(){var d=new Date();e.innerHTML="<b>"+d.toLocaleTimeString("ar-EG",{hour:"numeric",minute:"2-digit",second:"2-digit",timeZone:"Africa/Cairo"})+"</b><span>"+d.toLocaleDateString("ar-EG",{weekday:"long",day:"numeric",month:"long",timeZone:"Africa/Cairo"})+" · بتوقيت القاهرة</span>"}t();clearInterval(window.__clk);window.__clk=setInterval(function(){if(!document.body.contains(e)){clearInterval(window.__clk);return}t()},1000)}
+function bd(t){var re=/(?:[0-9]+(?=[A-Za-z]))?[A-Za-z][A-Za-z0-9]*(?:(?:, | & |[ .&\/\-'])[A-Za-z0-9]+)*/g,o="",l=0,m;while(m=re.exec(t)){o+=esc(t.slice(l,m.index))+'<bdi dir="ltr">'+esc(m[0])+"</bdi>";l=m.index+m[0].length}return o+esc(t.slice(l))}
 /* router */
 var cur=null;
 function route(){var h=location.hash.replace(/^#\/?/,"")||"",p=h.split("/"),r=p[0]||"home",app=$("#app"),html;
