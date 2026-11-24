@@ -5,11 +5,14 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Sokar Hub - Cohort deadlines
 BEGIN:VEVENT
 UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
-DTSTART:20261126T123000Z
-DTEND:20261126T133000Z
+DTSTAMP:20261124T115502Z
+DTSTART:20261125T180000Z
+DTEND:20261125T190000Z
 SUMMARY:MGT122 online Tutorial on Teams
-DESCRIPTION:This week only. 2:30 PM Cairo time.
+DESCRIPTION:This week only: online on Teams\, Wednesday 25 November\, 8:00
+  PM Cairo time\, replacing the Thursday 26 November 2:30 PM slot\, per th
+ e edited Canvas announcement (24 November\, early afternoon). The join li
+ nk is in the Canvas announcement and is not republished here.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MGT122 online Tutorial on Teams
