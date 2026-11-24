@@ -6,6 +6,13 @@ lectures:[
 {t:"Lectures 1–2: Numbers and linear equations",pts:[
 "The difference between a Digit (a single symbol from 0 to 9, the building block of numbers) and a Number (a value or quantity, which can be made of more than one digit).",
 "Chapter one: numbers, sequences and series, solving a linear equation in one variable, linear inequalities, and graphing a linear equation in two variables.",
+id:"mat214",code:"MAT214",name:"Mathematics for Business",icon:"sigma",hue:28,
+who:"Dr. Ahmed El-Qotory",src:"Lectures 1 to 9 + section + Practice Questions",
+grading:"From the course plan: Quizzes (lectures 5 and 10) 15 + online Assignments (lectures 4 and 11) 15 + Midterm 1 (lecture 7) 15 + Midterm 2 (lecture 12) 15 + Final 40 = 100, with a 10 mark Extra Activity.",
+lectures:[
+{t:"Lectures 1–2: Numbers and linear equations",pts:[
+"The difference between a Digit (a single symbol from 0 to 9, the building block of numbers) and a Number (a value or quantity, which can be made of more than one digit).",
+"Chapter one: numbers, sequences and series, solving a linear equation in one variable, linear inequalities, and graphing a linear equation in two variables.",
 "Economic applications: the total cost equation, the demand equation and the break-even point."],
 terms:[["Digit","a single symbol, 0 to 9"],["Number","a value or quantity"],["Break-even","where revenue equals cost"]]},
 {t:"Lecture 3: Solving a linear equation and the balance idea",pts:[
@@ -63,7 +70,17 @@ terms:[["Δ","determinant"],["adj A","adjoint (cofactor) matrix"],["A⁻¹","inv
 "The lecture covers 9 basic rules. A summary of the common rules (general review): a constant's derivative is 0, d(xⁿ)/dx = n·xⁿ⁻¹, a constant factor comes out, sums and differences go term by term, the product and quotient rules, and the Chain rule.",
 "For logarithmic functions: ln e = 1 and log₁₀ 10 = 1.",
 "Applications: the tangent line equation, elasticity and economic optimization in the coming weeks."],
-terms:[["Derivative","slope of the tangent"],["Tangent line","touches the curve at one point"],["Optimization","finding a maximum or minimum"]]}
+terms:[["Derivative","slope of the tangent"],["Tangent line","touches the curve at one point"],["Optimization","finding a maximum or minimum"]]},
+{t:"Lecture 8 interactive slides, part 2: the six rules with worked examples (Canvas, 24 Nov)",pts:[
+"The six rules on one map: 1) constant y = a gives dy/dx = 0. 2) multiple y = ax gives a. 3) power y = a·xⁿ gives a·n·xⁿ⁻¹. 4) a sum or difference goes term by term. 5) product y = f₁ × f₂ gives (f₁ × f′₂) + (f₂ × f′₁). 6) division y = f/g gives (g × f′ − f × g′) ÷ g².",
+"Before the power rule, rewrite roots and fractions as powers: the b-th root of xᵃ is x^(a/b) (√x = x^(1/2)), xᵃ × xᵇ = x^(a+b), xᵃ ÷ xᵇ = x^(a−b), (xᵃ)ᵇ = x^(a×b), and a ÷ xᵇ = a·x^(−b).",
+"Level examples from the slides: y = 8, √40, 3.12 and e² all give 0 (constant rule). y = 3x gives 3, y = x gives 1, y = x/2 gives 1/2 (multiple rule). y = 5x³ gives 15x² and y = x⁴ gives 4x³ (power rule).",
+"Roots and fractions table: 8√x = 8x^(1/2) gives 4x^(−1/2) = 4/√x. 3/x = 3x^(−1) gives −3/x². √(x⁵) = x^(5/2) gives (5/2)x^(3/2). 2 ÷ ∛(x⁴) = 2x^(−4/3) gives (−8/3)x^(−7/3).",
+"Sum and difference: y = x³ + 2x − 5 gives 3x² + 2, and the long relay y = 3x⁴ − 5x³ + 2x² − 7x + 9 gives 12x³ − 15x² + 4x − 7.",
+"Product chant: first times d-second plus second times d-first, so y = (x³ − 1)(4x² + 5x) gives (x³ − 1)(8x + 5) + (4x² + 5x)(3x²).",
+"Division rhyme: low d-high minus high d-low, over low squared. The boss round y = (3x² − 5)/(x + 2) gives (3x² + 12x + 5)/(x + 2)² after simplifying the top.",
+"Mistakes the slides correct: the product rule is not f′ × g′ (x² × x³ gives 5x⁴, not 6x³), and flipping the division numerator gives −1 instead of 1 for y = x²/x.",
+"Summary by Sokar from the lecture slides (interactive part 2). The interactive rounds themselves are not replayed here, only their questions and results."]}
 ],
 cards:[
 ["Determinant 2×2?","ad − bc"],
