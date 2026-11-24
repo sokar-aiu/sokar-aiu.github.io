@@ -6,13 +6,6 @@ lectures:[
 {t:"Lectures 1–2: Numbers and linear equations",pts:[
 "The difference between a Digit (a single symbol from 0 to 9, the building block of numbers) and a Number (a value or quantity, which can be made of more than one digit).",
 "Chapter one: numbers, sequences and series, solving a linear equation in one variable, linear inequalities, and graphing a linear equation in two variables.",
-id:"mat214",code:"MAT214",name:"Mathematics for Business",icon:"sigma",hue:28,
-who:"Dr. Ahmed El-Qotory",src:"Lectures 1 to 9 + section + Practice Questions",
-grading:"From the course plan: Quizzes (lectures 5 and 10) 15 + online Assignments (lectures 4 and 11) 15 + Midterm 1 (lecture 7) 15 + Midterm 2 (lecture 12) 15 + Final 40 = 100, with a 10 mark Extra Activity.",
-lectures:[
-{t:"Lectures 1–2: Numbers and linear equations",pts:[
-"The difference between a Digit (a single symbol from 0 to 9, the building block of numbers) and a Number (a value or quantity, which can be made of more than one digit).",
-"Chapter one: numbers, sequences and series, solving a linear equation in one variable, linear inequalities, and graphing a linear equation in two variables.",
 "Economic applications: the total cost equation, the demand equation and the break-even point."],
 terms:[["Digit","a single symbol, 0 to 9"],["Number","a value or quantity"],["Break-even","where revenue equals cost"]]},
 {t:"Lecture 3: Solving a linear equation and the balance idea",pts:[
