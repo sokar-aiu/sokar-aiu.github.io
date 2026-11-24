@@ -5,12 +5,16 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Sokar Hub - مواعيد الدفعة
 BEGIN:VEVENT
 UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
-DTSTART:20261126T123000Z
-DTEND:20261126T133000Z
+DTSTAMP:20261124T115502Z
+DTSTART:20261125T180000Z
+DTEND:20261125T190000Z
 SUMMARY:MGT122 Tutorial أونلاين على Teams
-DESCRIPTION:الأسبوع ده بس. الساعة ٢:٣٠ العصر بت
- وقيت القاهرة.
+DESCRIPTION:الأسبوع ده بس: أونلاين على Teams الأر
+ بعاء ٢٥ نوفمبر الساعة ٨:٠٠ مساءً بتوقيت 
+ القاهرة، بدل ميعاد الخميس ٢٦ نوفمبر ٢:٣٠
+  العصر، حسب إعلان Canvas المتعدّل (٢٤ نوفمب
+ ر، الضهر). لينك الدخول في إعلان Canvas ومش م
+ نشور هنا.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:MGT122 Tutorial أونلاين على Teams
