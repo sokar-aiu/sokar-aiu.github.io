@@ -73,7 +73,8 @@ terms:[["Derivative","slope of the tangent"],["Tangent line","touches the curve 
 "Product chant: first times d-second plus second times d-first, so y = (x³ − 1)(4x² + 5x) gives (x³ − 1)(8x + 5) + (4x² + 5x)(3x²).",
 "Division rhyme: low d-high minus high d-low, over low squared. The boss round y = (3x² − 5)/(x + 2) gives (3x² + 12x + 5)/(x + 2)² after simplifying the top.",
 "Mistakes the slides correct: the product rule is not f′ × g′ (x² × x³ gives 5x⁴, not 6x³), and flipping the division numerator gives −1 instead of 1 for y = x²/x.",
-"Summary by Sokar from the lecture slides (interactive part 2). The interactive rounds themselves are not replayed here, only their questions and results."]}
+"Summary by Sokar from the lecture slides (interactive part 2). The interactive rounds themselves are not replayed here, only their questions and results."],
+terms:[["Constant rule","y = a gives 0"],["Power rule","y = a·xⁿ gives a·n·xⁿ⁻¹"],["Product rule","first × d-second + second × d-first"],["Quotient rule","(g × f′ − f × g′) ÷ g²"]]}
 ],
 cards:[
 ["Determinant 2×2?","ad − bc"],
