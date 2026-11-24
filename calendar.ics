@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Sokar Hub - Cohort deadlines
 BEGIN:VEVENT
 UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
-DTSTAMP:20261124T115746Z
+DTSTAMP:20261124T120254Z
 DTSTART:20261125T180000Z
 SUMMARY:MGT122 online Tutorial on Teams
 DESCRIPTION:This week only: online on Teams\, Wednesday 25 November\, 8:00
@@ -31,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lib116-project-2026-11-30@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
+DTSTAMP:20261124T120254Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Research Project submission (individual\, 20 marks)
@@ -50,13 +50,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc-online-q-nov26@sokar-aiu.github.io
-DTSTAMP:20261123T165800Z
+DTSTAMP:20261124T120254Z
 DTSTART:20261126T200000Z
 DTEND:20261126T201500Z
 SUMMARY:ACC111 online quiz: Closing and Unearned Revenue
-DESCRIPTION:Thursday 26 November\, 10:00 to 10:15 PM Cairo time. 12 multip
- le-choice questions\, 4 marks. Personal link by email\, per the Canvas an
- nouncement.
+DESCRIPTION:Thursday 26 November\, 10:00 to 10:15 PM Cairo time. Online\, 
+ 12 multiple-choice questions\, 4 marks. The personal link comes by email 
+ as before. It will not be repeated\, per the doctor's announcement on Can
+ vas (23 November\, 6:23 PM).
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ACC111 online quiz: Closing and Unearned Revenue
@@ -70,39 +71,151 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ACC111 online quiz: Closing and Unearned Revenue
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mgt-lec-a-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T093000Z
+DTEND:20261124T113000Z
+SUMMARY:MGT122 lecture\, Group A (this week only)
+DESCRIPTION:Tuesday 24 November\, 11:30 AM to 1:30 PM. This week only\, pe
+ r the announcement on Canvas (23 November\, about 6:40 PM). It replaces t
+ he usual time.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 lecture\, Group A (this week only)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 lecture\, Group A (this week only)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 lecture\, Group A (this week only)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mgt-lec-b-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T070000Z
+DTEND:20261124T091500Z
+SUMMARY:MGT122 lecture\, Group B (this week only)
+DESCRIPTION:Tuesday 24 November\, 9:00 to 11:15 AM. This week only\, per t
+ he announcement on Canvas (23 November\, about 6:40 PM).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 lecture\, Group B (this week only)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 lecture\, Group B (this week only)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:MGT122 lecture\, Group B (this week only)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-lec-a-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T070000Z
+DTEND:20261124T090000Z
+SUMMARY:ACC111 lecture\, Group A (this week only)
+DESCRIPTION:Tuesday 24 November\, 9:00 to 11:00 AM. This week only\, per t
+ he Canvas announcements (23 November\, evening). The edited announcement 
+ (24 November\, early morning) confirms both groups explicitly: the doctor
+  enters at 9:00 sharp and starts by 9:10 at the latest\, and morning stud
+ ents should be seated before 9:00.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 lecture\, Group A (this week only)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 lecture\, Group A (this week only)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 lecture\, Group A (this week only)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-lec-b-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T100000Z
+DTEND:20261124T120000Z
+SUMMARY:ACC111 lecture\, Group B (this week only)
+DESCRIPTION:Tuesday 24 November\, 12:00 to 2:00 PM. This week only\, per t
+ he Canvas announcements (23 November\, evening). The edited announcement 
+ (24 November\, early morning) now confirms this slot explicitly for Group
+  B.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 lecture\, Group B (this week only)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 lecture\, Group B (this week only)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ACC111 lecture\, Group B (this week only)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lan-email-nov27@sokar-aiu.github.io
-DTSTAMP:20261123T165800Z
-DTSTART:20261127T214900Z
-DTEND:20261127T215900Z
-SUMMARY:LAN022 Professional Email Writing assignment due (15 marks)
-DESCRIPTION:Due Friday 27 November\, 11:59 PM\, per Canvas.
+DTSTAMP:20261124T120254Z
+DTSTART:20261127T215900Z
+SUMMARY:LAN022 Professional Email Writing assignment (15 marks)
+DESCRIPTION:Due Friday 27 November\, 11:59 PM\, per Canvas. This is separa
+ te from the Quiz 2 day conflict above.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 Professional Email Writing assignment due (15 marks)
+DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 Professional Email Writing assignment due (15 marks)
+DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 Professional Email Writing assignment due (15 marks)
+DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:withdraw-dec10@sokar-aiu.github.io
-DTSTAMP:20261123T165800Z
+DTSTAMP:20261124T120254Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Last day to withdraw from a course (university-wide)
-DESCRIPTION:10 December\, end of week 12\, per the university announcement
- . No time given.
+DESCRIPTION:10 December\, the end of week 12\, per the university announce
+ ment of 23 November. The announcement gives no time.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Last day to withdraw from a course (university-wide)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Last day to withdraw from a course (university-wide)
+TRIGGER:-P3D
+END:VALARM
 END:VEVENT
 END:VCALENDAR
