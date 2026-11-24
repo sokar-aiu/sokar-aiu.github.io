@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Sokar Hub - مواعيد الدفعة
 BEGIN:VEVENT
 UID:mgt122-tutorial-2026-11-26@sokar-aiu.github.io
-DTSTAMP:20261124T115746Z
+DTSTAMP:20261124T120254Z
 DTSTART:20261125T180000Z
 SUMMARY:MGT122 Tutorial أونلاين على Teams
 DESCRIPTION:الأسبوع ده بس: أونلاين على Teams الأر
@@ -32,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lib116-project-2026-11-30@sokar-aiu.github.io
-DTSTAMP:20261122T224038Z
+DTSTAMP:20261124T120254Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:تسليم Research Project (فردي، ٢٠ درجة)
@@ -52,14 +52,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acc-online-q-nov26@sokar-aiu.github.io
-DTSTAMP:20261123T165800Z
+DTSTAMP:20261124T120254Z
 DTSTART:20261126T200000Z
 DTEND:20261126T201500Z
 SUMMARY:ACC111 كويز أونلاين: Closing و Unearned Revenue
 DESCRIPTION:الخميس ٢٦ نوفمبر من ١٠:٠٠ لـ١٠:١٥ م
- ساءً بتوقيت القاهرة. ١٢ سؤال اختيار من م
- تعدد، ٤ درجات. اللينك الشخصي على الإيميل
- ، حسب إعلان Canvas.
+ ساءً بتوقيت القاهرة. أونلاين، ١٢ سؤال اخ
+ تيار من متعدد، ٤ درجات. اللينك الشخصي بي
+ يجي على الإيميل زي قبل كده. ومش هيتعاد، ح
+ سب إعلان الدكتور على Canvas (٢٣ نوفمبر، ٦:٢٣
+  مساءً).
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ACC111 كويز أونلاين: Closing و Unearned Revenue
@@ -73,45 +75,175 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ACC111 كويز أونلاين: Closing و Unearned Revenue
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mgt-lec-a-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T093000Z
+DTEND:20261124T113000Z
+SUMMARY:محاضرة MGT122، المجموعة A (الأسبوع ده بس
+ )
+DESCRIPTION:الثلاثاء ٢٤ نوفمبر من ١١:٣٠ صباحًا
+  لـ١:٣٠ ظهرًا. الأسبوع ده بس، حسب إعلان Can
+ vas (٢٣ نوفمبر، حوالي ٦:٤٠ مساءً). بيحل مكا
+ ن الميعاد المعتاد.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة MGT122، المجموعة A (الأسبوع ده 
+ بس)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة MGT122، المجموعة A (الأسبوع ده 
+ بس)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة MGT122، المجموعة A (الأسبوع ده 
+ بس)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mgt-lec-b-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T070000Z
+DTEND:20261124T091500Z
+SUMMARY:محاضرة MGT122، المجموعة B (الأسبوع ده بس
+ )
+DESCRIPTION:الثلاثاء ٢٤ نوفمبر من ٩:٠٠ لـ١١:١٥ 
+ صباحًا. الأسبوع ده بس، حسب إعلان Canvas (٢٣ 
+ نوفمبر، حوالي ٦:٤٠ مساءً).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة MGT122، المجموعة B (الأسبوع ده 
+ بس)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة MGT122، المجموعة B (الأسبوع ده 
+ بس)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة MGT122، المجموعة B (الأسبوع ده 
+ بس)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-lec-a-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T070000Z
+DTEND:20261124T090000Z
+SUMMARY:محاضرة ACC111، المجموعة A (الأسبوع ده بس
+ )
+DESCRIPTION:الثلاثاء ٢٤ نوفمبر من ٩:٠٠ لـ١١:٠٠ 
+ صباحًا. الأسبوع ده بس، حسب إعلانات Canvas (٢
+ ٣ نوفمبر، مساءً). التعديل بتاع ٢٤ نوفمبر 
+ الفجر أكد المجموعتين صراحة: الدكتور هيد
+ خل ٩:٠٠ بالظبط وهيبدأ على ٩:١٠ كحد أقصى، 
+ وطلبة الصبح يكونوا قاعدين قبل ٩:٠٠.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة ACC111، المجموعة A (الأسبوع ده 
+ بس)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة ACC111، المجموعة A (الأسبوع ده 
+ بس)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة ACC111، المجموعة A (الأسبوع ده 
+ بس)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-lec-b-nov24@sokar-aiu.github.io
+DTSTAMP:20261124T120254Z
+DTSTART:20261124T100000Z
+DTEND:20261124T120000Z
+SUMMARY:محاضرة ACC111، المجموعة B (الأسبوع ده بس
+ )
+DESCRIPTION:الثلاثاء ٢٤ نوفمبر من ١٢:٠٠ لـ٢:٠٠ 
+ ظهرًا. الأسبوع ده بس، حسب إعلانات Canvas (٢٣
+  نوفمبر، مساءً). تعديل ٢٤ نوفمبر الفجر أك
+ د الميعاد ده للمجموعة B صراحة.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة ACC111، المجموعة B (الأسبوع ده 
+ بس)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة ACC111، المجموعة B (الأسبوع ده 
+ بس)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:محاضرة ACC111، المجموعة B (الأسبوع ده 
+ بس)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lan-email-nov27@sokar-aiu.github.io
-DTSTAMP:20261123T165800Z
-DTSTART:20261127T214900Z
-DTEND:20261127T215900Z
-SUMMARY:LAN022 آخر ميعاد تسليم Professional Email Writing (١
- ٥ درجة)
-DESCRIPTION:الجمعة ٢٧ نوفمبر الساعة ١١:٥٩ مساء
- ً، حسب Canvas.
+DTSTAMP:20261124T120254Z
+DTSTART:20261127T215900Z
+SUMMARY:LAN022 تسليم Professional Email Writing (١٥ درجة)
+DESCRIPTION:آخر ميعاد الجمعة ٢٧ نوفمبر الساعة 
+ ١١:٥٩ مساءً، حسب Canvas. ده منفصل عن تعارض ي
+ وم Quiz 2 اللي فوق.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 آخر ميعاد تسليم Professional Email Writing
-  (١٥ درجة)
+DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 آخر ميعاد تسليم Professional Email Writing
-  (١٥ درجة)
+DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 آخر ميعاد تسليم Professional Email Writing
-  (١٥ درجة)
+DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:withdraw-dec10@sokar-aiu.github.io
-DTSTAMP:20261123T165800Z
+DTSTAMP:20261124T120254Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:آخر يوم للانسحاب من مادة (على مستوى ا
  لجامعة)
 DESCRIPTION:١٠ ديسمبر، نهاية الأسبوع ١٢، حسب إ
- علان الجامعة. الإعلان مفيهوش ساعة.
+ علان الجامعة بتاع ٢٣ نوفمبر. الإعلان مفي
+ هوش ساعة.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:آخر يوم للانسحاب من مادة (على مستو
+ ى الجامعة)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:آخر يوم للانسحاب من مادة (على مستو
+ ى الجامعة)
+TRIGGER:-P3D
+END:VALARM
 END:VEVENT
 END:VCALENDAR
