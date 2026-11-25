@@ -80,6 +80,14 @@ terms:[["Post-closing trial balance","permanent accounts only"],["Purchase disco
 "Lower-of-Cost-or-Market: if market value is below cost we write inventory down to market, which applies the conservatism principle.",
 "Inventory turnover measures how many times inventory was sold during the period."],
 terms:[["FIFO","first in, first out"],["LIFO","last in, first out"],["Conservatism","do not overstate assets or income"]]},
+{t:"Inventory practice problems (course practice file, 3 Oct, surfaced again 25 Nov)",pts:[
+"An older practice file, not new teaching: four inventory problems and one depreciation problem, summarized by topic and result.",
+"Inventory error: the 2016 ending inventory was understated by 3,000. The fix: 2016 net income rises 3,000 (22,000 becomes 25,000) and 2017 falls 3,000 (13,000 becomes 10,000). The cumulative effect over the two years is zero.",
+"FIFO vs LIFO (periodic): FIFO COGS 1,790 vs LIFO 2,040, so FIFO profit is 250 higher. That is phantom profit: with prices rising, replacing the sold units costs the current higher price, so LIFO income is more realistic.",
+"Lower-of-Cost-or-Market, item by item: cameras 65 vs 71, DVD players 69 vs 75, iPods 78 vs 80, so ending inventory is 6,500 + 10,350 + 9,750 = 26,600.",
+"Periodic FIFO, LIFO and Average (16,000 units available for 146,000, and 12,500 sold): FIFO Ending Inventory 37,000 and COGS 109,000; LIFO 26,500 and 119,500; Average (9.125 a unit) 31,938 and 114,062. Highest ending inventory is FIFO, highest COGS is LIFO.",
+"Change in depreciation estimate (equipment 510,000, life revised from 10 to 15 years, salvage from 10,000 to 5,000 after 7 years): no correcting entry for the prior years. The new annual expense is (160,000 − 5,000) ÷ 8 = 19,375: Dr Depreciation Expense 19,375 / Cr Accumulated Depreciation 19,375."],
+terms:[["Phantom profit","a FIFO gain from rising prices that replacement cost eats"],["LCM","value each item at the lower of cost or market"],["Change in estimate","apply the new estimate from now on, no restatement"]]},
 {t:"Ch7: Accounts Receivable",pts:[
 "Types of receivables: Accounts Receivable (from selling goods or services on credit), Notes Receivable (with formal promissory notes), and Other Receivables.",
 "3 issues: recognizing the AR, valuing it, and disposing of it.",
