@@ -202,19 +202,23 @@ END:VEVENT
 BEGIN:VEVENT
 UID:withdraw-dec10@sokar-aiu.github.io
 DTSTAMP:20261124T120254Z
+SUMMARY:Course withdrawal deadline (UNCONFIRMED: plan around 10 December)
+DESCRIPTION:Two sources disagree: a Canvas announcement says 10 December (
+ end of week 12)\, and a university email says 12 December. Not confirmed
+ . 10 December is the earlier date to plan around. Check the university n
+ otice before relying on either.
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-SUMMARY:Last day to withdraw from a course (university-wide)
-DESCRIPTION:10 December\, the end of week 12\, per the university announce
- ment of 23 November. The announcement gives no time.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Last day to withdraw from a course (university-wide)
+DESCRIPTION:Course withdrawal deadline (UNCONFIRMED: plan around 10 Decemb
+ er)
 TRIGGER:-PT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Last day to withdraw from a course (university-wide)
+DESCRIPTION:Course withdrawal deadline (UNCONFIRMED: plan around 10 Decemb
+ er)
 TRIGGER:-P3D
 END:VALARM
 END:VEVENT
