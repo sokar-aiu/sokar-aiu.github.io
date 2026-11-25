@@ -1,5 +1,5 @@
 window.SOKAR=window.SOKAR||{courses:[]};
-SOKAR.updated="٢٤ نوفمبر ٢٠٢٦";
+SOKAR.updated="٢٥ نوفمبر ٢٠٢٦";
 SOKAR.links=[
  {t:"Canvas",d:"المحاضرات والكويزات",u:"https://aiu.instructure.com"},
  {t:"موقع الجامعة",d:"الموقع الرسمي",u:"https://aiu.edu.eg/"},
