@@ -226,23 +226,25 @@ END:VEVENT
 BEGIN:VEVENT
 UID:withdraw-dec10@sokar-aiu.github.io
 DTSTAMP:20261124T120254Z
+SUMMARY:ميعاد الانسحاب من مادة (مش مؤكد: خطط 
+ على ١٠ ديسمبر)
+DESCRIPTION:إعلان Canvas بيقول ١٠ ديسمبر (نهاية ا
+ لأسبوع ١٢)، وإيميل الجامعة بيقول ١٢ ديس
+ مبر. مش مؤكد. ⁦١٠ ديسمبر⁩ هو الأقرب نخط
+ ط عليه. راجع إعلان الجامعة الرسمي قبل ال
+ اعتماد على أي تاريخ.
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-SUMMARY:آخر يوم للانسحاب من مادة (على مستوى ا
- لجامعة)
-DESCRIPTION:١٠ ديسمبر، نهاية الأسبوع ١٢، حسب إ
- علان الجامعة بتاع ٢٣ نوفمبر. الإعلان مفي
- هوش ساعة.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:آخر يوم للانسحاب من مادة (على مستو
- ى الجامعة)
+DESCRIPTION:ميعاد الانسحاب من مادة (مش مؤكد: خط
+ ط على ١٠ ديسمبر)
 TRIGGER:-PT15H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:آخر يوم للانسحاب من مادة (على مستو
- ى الجامعة)
+DESCRIPTION:ميعاد الانسحاب من مادة (مش مؤكد: خط
+ ط على ١٠ ديسمبر)
 TRIGGER:-P3D
 END:VALARM
 END:VEVENT
