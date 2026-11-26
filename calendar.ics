@@ -222,4 +222,30 @@ DESCRIPTION:Course withdrawal deadline (UNCONFIRMED: plan around 10 Decemb
 TRIGGER:-P3D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:lan022-midterm-2026-11-27@sokar-aiu.github.io
+DTSTAMP:20261126T121800Z
+DTSTART:20261127T080000Z
+DTEND:20261127T084500Z
+SUMMARY:LAN022 midterm exam (online)
+DESCRIPTION:Friday 27 November\, 10:00 to 10:45 AM Cairo time. The exam is
+  on Canvas\, with attendance on Teams and the camera on\, per the Canvas
+  announcement (26 November). The Teams join link is in the announcement 
+ and is not republished here.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 midterm exam (online)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 midterm exam (online)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 midterm exam (online)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
 END:VCALENDAR
