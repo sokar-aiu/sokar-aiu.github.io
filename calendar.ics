@@ -181,21 +181,18 @@ UID:lan-email-nov27@sokar-aiu.github.io
 DTSTAMP:20261124T120254Z
 DTSTART:20261127T215900Z
 SUMMARY:LAN022 Professional Email Writing assignment (15 marks)
-DESCRIPTION:Due Friday 27 November\, 11:59 PM\, per Canvas. This is separa
- te from the Quiz 2 day conflict above.
+DESCRIPTION:Due Friday 27 November\, 11:59 PM\, per Canvas. Separate from 
+ Quiz 2\, which is on Saturday 28 November.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
