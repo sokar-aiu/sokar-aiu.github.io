@@ -1,5 +1,5 @@
 window.SOKAR=window.SOKAR||{courses:[]};
-SOKAR.updated="25 November 2026";
+SOKAR.updated="27 November 2026";
 SOKAR.links=[
  {t:"Canvas",d:"Lectures and quizzes",u:"https://aiu.instructure.com"},
  {t:"University website",d:"Official website",u:"https://aiu.edu.eg/"},
@@ -37,9 +37,10 @@ org:'<rect x="9" y="3" width="6" height="5" rx="1"/><rect x="3" y="16" width="6"
 leaf:'<path d="M5 19c0-9 5-14 15-14 0 10-5 15-14 15"/><path d="M5 19c3-5 6-7 10-9"/>',
 book:'<path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v13c-3-1-6-1-8 1-2-2-5-2-8-1z"/><path d="M12 6v13"/>',
 talk:'<path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/>'};
-SOKAR.reviewed="27 November 2026, 6:30 AM (Cairo time), the LAN022 midterm retest and Quiz 2 updates and all announcements";
+SOKAR.reviewed="27 November 2026, 1:58 PM (Cairo time), the MAT214 Lecture 10 summaries";
 SOKAR.published="23 November 2026";
 SOKAR.updates=[
+["27 November (1:58 PM)","MAT214 Lecture 10 is now summarized on the course page in two parts, written as original study notes from the Canvas files: the slides (tangent lines, first and second derivative tests, and curve behavior with four worked functions) and the solved business optimization examples (cost, profit, advertising, revenue, pricing, and inventory). The source files stay on Canvas. Checked at 1:58 PM Cairo time."],
 ["27 November (early)","LAN022 updates from the Canvas assignment pages: the 10:00 AM exam on Friday is the midterm retest (English 1, 30 marks), and Quiz 2 now shows Saturday 28 November, 12:00 to 12:45 PM, 10 marks, matching the Saturday message from the instructor, so the Friday/Saturday conflict is resolved. No new announcement text confirmed the Quiz 2 change. Checked at 6:30 AM Cairo time."],
 ["26 November (2:19 PM)","LAN022 midterm announced on Canvas: Friday 27 November at 10:00 AM Cairo time, 45 minutes, exam on Canvas with attendance on Teams and the camera on. It is now in the deadlines and the calendar files. It is separate from the unresolved Quiz 2 day conflict, which stays as is. Checked at 2:19 PM Cairo time."],
 ["25 November (10:18 PM)","The course withdrawal date is no longer shown as confirmed. A Canvas announcement says 10 December (end of week 12) and a university email says 12 December. The deadlines list now shows it as conflicting, keeping 10 December as the earlier date to plan around, and the downloadable calendar file says the same. Checked at 10:18 PM Cairo time."],
