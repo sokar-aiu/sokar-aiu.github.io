@@ -209,14 +209,17 @@ DESCRIPTION:آخر ميعاد الجمعة ٢٧ نوفمبر الساعة
  ي يوم السبت ٢٨ نوفمبر.
 BEGIN:VALARM
 ACTION:DISPLAY
+DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
+DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
+DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
