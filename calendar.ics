@@ -185,14 +185,17 @@ DESCRIPTION:Due Friday 27 November\, 11:59 PM\, per Canvas. Separate from
  Quiz 2\, which is on Saturday 28 November.
 BEGIN:VALARM
 ACTION:DISPLAY
+DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
+DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
+DESCRIPTION:LAN022 Professional Email Writing assignment (15 marks)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
