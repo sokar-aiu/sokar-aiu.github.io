@@ -224,27 +224,54 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lan022-midterm-2026-11-27@sokar-aiu.github.io
-DTSTAMP:20261126T121800Z
+DTSTAMP:20261127T042100Z
 DTSTART:20261127T080000Z
 DTEND:20261127T084500Z
-SUMMARY:LAN022 midterm exam (online)
-DESCRIPTION:Friday 27 November\, 10:00 to 10:45 AM Cairo time. The exam is
-  on Canvas\, with attendance on Teams and the camera on\, per the Canvas
-  announcement (26 November). The Teams join link is in the announcement 
- and is not republished here.
+SUMMARY:LAN022 midterm retest\, English 1 (online)
+DESCRIPTION:Friday 27 November\, 10:00 to 10:45 AM Cairo time\, 30 marks. 
+ A retest of the 20 November midterm. The exam is on Canvas\, with attend
+ ance on Teams and the camera on\, per the Canvas announcement (26 Novemb
+ er). The Teams join link is in the announcement and is not republished h
+ ere.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 midterm exam (online)
+DESCRIPTION:LAN022 midterm retest\, English 1 (online)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 midterm exam (online)
+DESCRIPTION:LAN022 midterm retest\, English 1 (online)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 midterm exam (online)
+DESCRIPTION:LAN022 midterm retest\, English 1 (online)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lan022-quiz2-2026-11-28@sokar-aiu.github.io
+DTSTAMP:20261127T042100Z
+DTSTART:20261128T100000Z
+DTEND:20261128T104500Z
+SUMMARY:LAN022 Quiz 2 (online)
+DESCRIPTION:Saturday 28 November\, 12:00 to 12:45 PM Cairo time\, 10 marks
+ \, per the Canvas assignment page\, which now matches the Saturday messa
+ ge from the instructor. No new announcement text confirmed the change\; 
+ earlier the Canvas page said Friday 27 November.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Quiz 2 (online)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Quiz 2 (online)
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Quiz 2 (online)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
