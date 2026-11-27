@@ -205,21 +205,18 @@ DTSTAMP:20261124T120254Z
 DTSTART:20261127T215900Z
 SUMMARY:LAN022 تسليم Professional Email Writing (١٥ درجة)
 DESCRIPTION:آخر ميعاد الجمعة ٢٧ نوفمبر الساعة 
- ١١:٥٩ مساءً، حسب Canvas. ده منفصل عن تعارض ي
- وم Quiz 2 اللي فوق.
+ ١١:٥٩ مساءً، حسب Canvas. ده منفصل عن Quiz 2 الل
+ ي يوم السبت ٢٨ نوفمبر.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:LAN022 تسليم Professional Email Writing (١٥ درجة)
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
