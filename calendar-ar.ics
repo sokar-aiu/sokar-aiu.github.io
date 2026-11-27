@@ -250,28 +250,56 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lan022-midterm-2026-11-27@sokar-aiu.github.io
-DTSTAMP:20261126T121800Z
+DTSTAMP:20261127T042100Z
 DTSTART:20261127T080000Z
 DTEND:20261127T084500Z
-SUMMARY:امتحان ميدتيرم LAN022 (أونلاين)
+SUMMARY:إعادة ميدتيرم LAN022، English 1 (أونلاين)
 DESCRIPTION:الجمعة ٢٧ نوفمبر من ١٠:٠٠ لـ ١٠:٤٥ 
- ص بتوقيت القاهرة. الامتحان على Canvas والح
- ضور على Teams والكاميرا شغالة، حسب إعلان Ca
- nvas (٢٦ نوفمبر). لينك Teams في الإعلان ومش مت
- عاد نشره هنا.
+ ص بتوقيت القاهرة، ٣٠ درجة. إعادة لميدتي
+ رم ٢٠ نوفمبر. الامتحان على Canvas والحضور ع
+ لى Teams والكاميرا شغالة، حسب إعلان Canvas (٢
+ ٦ نوفمبر). لينك Teams في الإعلان ومش متعاد 
+ نشره هنا.
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:امتحان ميدتيرم LAN022 (أونلاين)
+DESCRIPTION:إعادة ميدتيرم LAN022، English 1 (أونلاين)
 TRIGGER:-P1D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:امتحان ميدتيرم LAN022 (أونلاين)
+DESCRIPTION:إعادة ميدتيرم LAN022، English 1 (أونلاين)
 TRIGGER:-PT1H
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:امتحان ميدتيرم LAN022 (أونلاين)
+DESCRIPTION:إعادة ميدتيرم LAN022، English 1 (أونلاين)
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:lan022-quiz2-2026-11-28@sokar-aiu.github.io
+DTSTAMP:20261127T042100Z
+DTSTART:20261128T100000Z
+DTEND:20261128T104500Z
+SUMMARY:LAN022 Quiz 2 أونلاين
+DESCRIPTION:السبت ٢٨ نوفمبر من ١٢:٠٠ لـ ١٢:٤٥ ظ
+ هرًا بتوقيت القاهرة، ١٠ درجات، حسب صفحة
+  الواجب على Canvas، اللي بقت مطابقة لرسالة 
+ الدكتور بتاعة يوم السبت. مفيش نص إعلان ج
+ ديد أكد التغيير.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Quiz 2 أونلاين
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Quiz 2 أونلاين
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:LAN022 Quiz 2 أونلاين
 TRIGGER:-PT15M
 END:VALARM
 END:VEVENT
