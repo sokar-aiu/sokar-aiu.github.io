@@ -74,7 +74,29 @@ terms:[["Derivative","slope of the tangent"],["Tangent line","touches the curve 
 "Division rhyme: low d-high minus high d-low, over low squared. The boss round y = (3x² − 5)/(x + 2) gives (3x² + 12x + 5)/(x + 2)² after simplifying the top.",
 "Mistakes the slides correct: the product rule is not f′ × g′ (x² × x³ gives 5x⁴, not 6x³), and flipping the division numerator gives −1 instead of 1 for y = x²/x.",
 "Summary by Sokar from the lecture slides (interactive part 2). The interactive rounds themselves are not replayed here, only their questions and results."],
-terms:[["Constant rule","y = a gives 0"],["Power rule","y = a·xⁿ gives a·n·xⁿ⁻¹"],["Product rule","first × d-second + second × d-first"],["Quotient rule","(g × f′ − f × g′) ÷ g²"]]}
+terms:[["Constant rule","y = a gives 0"],["Power rule","y = a·xⁿ gives a·n·xⁿ⁻¹"],["Product rule","first × d-second + second × d-first"],["Quotient rule","(g × f′ − f × g′) ÷ g²"]]},
+{t:"Lecture 10 slides: tangent lines and curve behavior (Canvas, 27 Nov)",pts:[
+"Tangent line: get the slope from the derivative at the point, then use y − y1 = m(x − x1).",
+"Example: y = x² − 2x + 3 at x = 3. dy/dx = 2x − 2, so m = 4 and the point is (3, 6): the tangent is y = 4x − 6. The tangent is horizontal where 2x − 2 = 0, at x = 1.",
+"Example: y = −x² + 4x at x = 1. m = −2 + 4 = 2 and the point is (1, 3): the tangent is y = 2x + 1.",
+"Sign of the first derivative: f′ > 0 means increasing, f′ < 0 means decreasing. A critical value is where f′ = 0 or does not exist.",
+"Second derivative test at a critical value: f″ < 0 gives a relative maximum, f″ > 0 a relative minimum. The first derivative test (sign change of f′) is the fallback.",
+"Sign of the second derivative: f″ > 0 concave up, f″ < 0 concave down. An inflection point is where the concavity actually changes.",
+"Main example y = x³ − 6x² + 9x + 1: critical values x = 1 and x = 3. Maximum point (1, 5), minimum point (3, 1), inflection point (2, 3). Increasing on (−∞, 1) and (3, ∞), decreasing on (1, 3).",
+"Second example y = 18x − (2/3)x³: minimum point (−3, −36), maximum point (3, 36), inflection point (0, 0).",
+"Third example y = x² − 2x − 3: minimum point (1, −4), concave up everywhere, no inflection point.",
+"Fourth example y = (1/3)x³: no maximum or minimum; (0, 0) is a critical point and the inflection point, and the function is increasing everywhere."],
+terms:[["Tangent line","slope from the derivative, then point-slope form"],["Critical value","f′ = 0 or f′ does not exist"],["Second derivative test","f″ < 0 maximum, f″ > 0 minimum"],["Inflection point","where concavity changes"]]},
+{t:"Lecture 10 solved examples: optimization in business (Canvas, 27 Nov)",pts:[
+"The shared recipe: differentiate, set the derivative to zero, check the second derivative, then read off the best value.",
+"Cost minimization, C(x) = x² − 80x + 3000: C′ = 2x − 80 = 0 at x = 40 units, and C″ = 2 > 0 confirms a minimum. Minimum cost 1,400.",
+"Profit maximization, P(x) = −2x² + 240x − 4000: x = 60 units, P″ = −4 confirms a maximum. Maximum profit 3,200.",
+"Advertising, N(x) = −5x² + 120x + 500: the best budget is x = 12 (thousand), giving at most 1,220 customers.",
+"Revenue, R(x) = 500x − 0.5x²: marginal revenue MR = 500 − x, zero at 500 units, maximum revenue 125,000.",
+"Best price from demand q = 1000 − 5p: R = 1000p − 5p², best price p = 100, then 500 units sold and revenue 50,000.",
+"Inventory, TC(q) = 200000/q + 2q: the best order quantity solves −200000/q² + 2 = 0, about 316 units.",
+"Full problem, C(x) = 5000 + 20x + x² and R(x) = 220x: profit P = −x² + 200x − 5000 is maximal at x = 100 units, giving 5,000."],
+terms:[["Marginal revenue","the derivative of the revenue function"],["Optimization","derivative to zero, second derivative confirms"]]}
 ],
 cards:[
 ["Determinant 2×2?","ad − bc"],
